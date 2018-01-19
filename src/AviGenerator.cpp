@@ -1,10 +1,3 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-03-17 14:21:00 
-# Filename:		 AviGenerator.cpp
-# Description:   
-=====================================================*/
 
 #include "AviFormat.h"
 #include "byteswap.h"

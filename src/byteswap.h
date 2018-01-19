@@ -1,11 +1,3 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-03-17 14:20:01 
-# Filename:		 byteswap.h
-# Description:   
-=====================================================*/
-
 
 #ifndef _BYTESWAP_H_
 #define _BYTESWAP_H_

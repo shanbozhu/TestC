@@ -1,18 +1,3 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-02-06 15:31
-# Filename:		 main.cpp
-# Description:   
-=====================================================*/
-
-
-
-
-
-
-
-
 
 #include <iostream>
 #include <fstream>

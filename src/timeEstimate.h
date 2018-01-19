@@ -1,10 +1,3 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-03-17 14:16:47 
-# Filename:		 timeEstimate.h
-# Description:   
-=====================================================*/
 
 #ifndef TIME_ESTIMATE_H
 #define TIME_ESTIMATE_H

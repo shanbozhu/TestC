@@ -1,10 +1,3 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-03-17 14:16:37 
-# Filename:		 WebserverAPI.cpp
-# Description:   
-=====================================================*/
 
 #include <map> 
 #include <set>

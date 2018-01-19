@@ -1,10 +1,3 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-02-06 15:30
-# Filename:		 WebserverAPI.h
-# Description:   
-=====================================================*/
 
 #ifndef __WebserverAPI__
 #define __WebserverAPI__

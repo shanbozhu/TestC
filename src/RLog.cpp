@@ -1,10 +1,3 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-03-17 14:17:14 
-# Filename:		 RLog.cpp
-# Description:   
-=====================================================*/
 
 #ifdef __unix
 #include <syslog.h>

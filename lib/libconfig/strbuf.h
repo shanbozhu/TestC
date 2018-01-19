@@ -1,10 +1,4 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-01-26 12:31
-# Filename:      strbuf.h
-# Description:   
-=====================================================*/
+
 
 #ifndef __libconfig_strbuf_h
 #define __libconfig_strbuf_h

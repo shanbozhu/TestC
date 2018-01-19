@@ -1,11 +1,3 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-03-17 14:21:07 
-# Filename:		 AviFormat.h
-# Description:   
-=====================================================*/
-
 
 #ifndef _AVI_FORMAT_H_
 #define _AVI_FORMAT_H_

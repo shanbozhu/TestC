@@ -1,11 +1,3 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-03-17 14:18:21 
-# Filename:		 PrinterState.h
-# Description:   
-=====================================================*/
-
 
 #ifndef __PrinterState__
 #define __PrinterState__

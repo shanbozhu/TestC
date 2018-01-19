@@ -1,11 +1,3 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-03-17 14:18:55 
-# Filename:		 printer.h
-# Description:   
-=====================================================*/
-
 
 #ifndef _Server__printer__
 #define _Server__printer__

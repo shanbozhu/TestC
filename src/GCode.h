@@ -1,11 +1,3 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-03-17 14:19:41 
-# Filename:		 GCode.h
-# Description:   
-=====================================================*/
-
 
 #ifndef __GCode__
 #define __GCode__

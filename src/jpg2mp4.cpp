@@ -1,10 +1,3 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-03-17 14:19:19 
-# Filename:		 jpg2mp4.cpp
-# Description:   
-=====================================================*/
 
 #include "jpg2mp4.h"
 using namespace std;

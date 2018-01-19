@@ -1,10 +1,4 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-01-26 12:31
-# Filename:      scanner.h
-# Description:   
-=====================================================*/
+
 
 #ifndef libconfig_yyHEADER_H
 #define libconfig_yyHEADER_H 1

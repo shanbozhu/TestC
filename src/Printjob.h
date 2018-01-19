@@ -1,10 +1,3 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-03-17 14:17:22 
-# Filename:		 Printjob.h
-# Description:   
-=====================================================*/
 
 #ifndef __Printjob__
 #define __Printjob__

@@ -1,10 +1,3 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-01-26 12:31
-# Filename:      json_spirit_stream_reader.h
-# Description:   
-=====================================================*/
 
 #ifndef JSON_SPIRIT_READ_STREAM
 #define JSON_SPIRIT_READ_STREAM

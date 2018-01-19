@@ -1,10 +1,4 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-01-26 12:31
-# Filename:      moFileReader.h
-# Description:   
-=====================================================*/
+
 #ifndef __MOFILEREADER_H_INCLUDED__
 #define __MOFILEREADER_H_INCLUDED__
 

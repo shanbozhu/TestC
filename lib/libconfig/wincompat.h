@@ -1,10 +1,4 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-01-26 12:31
-# Filename:      wincompat.h
-# Description:   
-=====================================================*/
+
 
 #ifndef __wincompat_h
 #define __wincompat_h

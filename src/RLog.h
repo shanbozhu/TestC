@@ -1,10 +1,3 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-03-17 14:17:04 
-# Filename:		 RLog.h
-# Description:   
-=====================================================*/
 
 #ifndef __RLog__
 #define __RLog__

@@ -1,6 +1,6 @@
 #=====================================================
 # Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
+# Copyright:             
 # Last modified: 2015-02-06 15:24
 # Filename:		 install.sh
 # Description:   .../Zeegine-Server/

@@ -1,10 +1,3 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-01-26 12:31
-# Filename:      json_spirit_writer_options.h
-# Description:   
-=====================================================*/
 
 #ifndef JSON_SPIRIT_WRITER_OPTIONS
 #define JSON_SPIRIT_WRITER_OPTIONS

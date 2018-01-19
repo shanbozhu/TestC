@@ -1,10 +1,3 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-03-17 14:19:35 
-# Filename:		 global_config.cpp
-# Description:   
-=====================================================*/
 
 #include "global_config.h"
 #include <boost/filesystem.hpp>

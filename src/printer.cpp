@@ -1,10 +1,3 @@
-/*=====================================================
-# Author:        Zeegine Team
-# Copyright:     www.thu3d.com        
-# Last modified: 2015-03-17 14:19:02 
-# Filename:		 printer.cpp
-# Description:   
-=====================================================*/
 
 #define _CRT_SECURE_NO_WARNINGS // Disable deprecation warning in VS2005
 #define _CRT_SECURE_NO_DEPRECATE 
