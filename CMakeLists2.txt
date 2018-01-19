@@ -1,0 +1,24 @@
+project(Zeegine-Server)
+cmake_minimum_required(VERSION 2.8)
+
+set(Boost_USE_STATIC_LIBS ON)
+set(Boost_USE_MULTITHREADED ON) 
+set(Boost_USE_STATIC_RUNTIME OFF)
+
+find_package(Boost COMPONENTS filesystem thread program_options system date_time chrono regex)
+
+add_subdirectory(${PROJECT_SOURCE_DIR}/src)
+
+include_directories(${PROJECT_SOURCE_DIR}/lib/json_spirit)
+include_directories(${PROJECT_SOURCE_DIR}/lib/libconfig)
+include_directories(${PROJECT_SOURCE_DIR}/lib/moFileReader)
+include_directories(${PROJECT_SOURCE_DIR}/lib/mongoose)
+
+link_directories(${PROJECT_SOURCE_DIR}/lib/json_spirit/build)
+link_directories(${PROJECT_SOURCE_DIR}/lib/mongoose/build)
+link_directories(${PROJECT_SOURCE_DIR}/lib/moFileReader/build)
+link_directories(${PROJECT_SOURCE_DIR}/lib/libconfig/build)
+
+add_executable(ZeegineServer ${src})
+target_link_libraries(ZeegineServer ${Boost_LIBRARIES} libjson_spirit_x86.a libmongoose_x86.a libmoFileReader_x86.a libconfig_x86.a)
+target_link_libraries(ZeegineServer dl m)

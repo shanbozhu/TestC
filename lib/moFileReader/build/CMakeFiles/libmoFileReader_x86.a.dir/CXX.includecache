@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhushanbo/download/Zeegine-Server/lib/moFileReader/moFileConfig.h
+
+/home/zhushanbo/download/Zeegine-Server/lib/moFileReader/moFileReader.cpp
+moFileReader.h
+/home/zhushanbo/download/Zeegine-Server/lib/moFileReader/moFileReader.h
+iostream
+-
+cstdlib
+-
+
+/home/zhushanbo/download/Zeegine-Server/lib/moFileReader/moFileReader.h
+deque
+-
+map
+-
+fstream
+-
+cstring
+-
+string
+-
+sstream
+-
+moFileConfig.h
+/home/zhushanbo/download/Zeegine-Server/lib/moFileReader/moFileConfig.h
+boost/cstdint.hpp
+-
+

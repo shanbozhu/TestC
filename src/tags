@@ -1,0 +1,1228 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ActivateV2OrForceAscii	GCode.cpp	/^void GCode::ActivateV2OrForceAscii(Printer *printer)$/;"	f	class:GCode	signature:(Printer *printer)
+ActivateV2OrForceAscii	GCode.h	/^    void ActivateV2OrForceAscii(Printer *printer);$/;"	p	class:GCode	access:private	signature:(Printer *printer)
+ContinueJob	printer.h	/^    void ContinueJob();$/;"	p	class:Printer	access:public	signature:()
+FillTemplate	WebserverAPI.cpp	/^    void FillTemplate(string &text,string& result,Object& data) {$/;"	f	namespace:repetier	signature:(string &text,string& result,Object& data)
+FillTemplateRecursive	WebserverAPI.cpp	/^    void FillTemplateRecursive(string& text,string& result,list<Value>& vars,size_t start,size_t end) {$/;"	f	namespace:repetier	signature:(string& text,string& result,list<Value>& vars,size_t start,size_t end)
+GCode	GCode.cpp	/^GCode::GCode(Printer &printer,string const& cmd) {$/;"	f	class:GCode	signature:(Printer &printer,string const& cmd)
+GCode	GCode.h	/^    GCode(Printer &printer, std::string const &cmd);$/;"	p	class:GCode	access:public	signature:(Printer &printer, std::string const &cmd)
+GCode	GCode.h	/^class GCode {$/;"	c
+GCode::ActivateV2OrForceAscii	GCode.cpp	/^void GCode::ActivateV2OrForceAscii(Printer *printer)$/;"	f	class:GCode	signature:(Printer *printer)
+GCode::ActivateV2OrForceAscii	GCode.h	/^    void ActivateV2OrForceAscii(Printer *printer);$/;"	p	class:GCode	access:private	signature:(Printer *printer)
+GCode::GCode	GCode.cpp	/^GCode::GCode(Printer &printer,string const& cmd) {$/;"	f	class:GCode	signature:(Printer &printer,string const& cmd)
+GCode::GCode	GCode.h	/^    GCode(Printer &printer, std::string const &cmd);$/;"	p	class:GCode	access:public	signature:(Printer &printer, std::string const &cmd)
+GCode::addCode	GCode.cpp	/^void GCode::addCode(Printer *printer,char c,const string& val) {$/;"	f	class:GCode	signature:(Printer *printer,char c,const string& val)
+GCode::addCode	GCode.h	/^    void addCode(Printer *printer,char c,const std::string & val);$/;"	p	class:GCode	access:private	signature:(Printer *printer,char c,const std::string & val)
+GCode::comment	GCode.h	/^    bool comment;$/;"	m	class:GCode	access:public
+GCode::e	GCode.h	/^    float x, y, z, e, f,ii,j,r;$/;"	m	class:GCode	access:public
+GCode::f	GCode.h	/^    float x, y, z, e, f,ii,j,r;$/;"	m	class:GCode	access:public
+GCode::fields	GCode.h	/^    uint16_t fields,fields2;$/;"	m	class:GCode	access:public
+GCode::fields2	GCode.h	/^    uint16_t fields,fields2;$/;"	m	class:GCode	access:public
+GCode::forceASCII	GCode.h	/^    bool forceASCII;$/;"	m	class:GCode	access:public
+GCode::g	GCode.h	/^    uint16_t g, m;$/;"	m	class:GCode	access:public
+GCode::getAscii	GCode.cpp	/^GCodeDataPacketPtr GCode::getAscii(bool inclLine,bool inclChecksum)$/;"	f	class:GCode	signature:(bool inclLine,bool inclChecksum)
+GCode::getAscii	GCode.h	/^    GCodeDataPacketPtr getAscii(bool inclLine,bool inclChecksum);$/;"	p	class:GCode	access:public	signature:(bool inclLine,bool inclChecksum)
+GCode::getBinary	GCode.cpp	/^GCodeDataPacketPtr GCode::getBinary()$/;"	f	class:GCode	signature:()
+GCode::getBinary	GCode.h	/^    GCodeDataPacketPtr getBinary();$/;"	p	class:GCode	access:public	signature:()
+GCode::getE	GCode.h	/^    inline float getE() {return e;}$/;"	f	class:GCode	access:public	signature:()
+GCode::getF	GCode.h	/^    inline float getF() {return f;}$/;"	f	class:GCode	access:public	signature:()
+GCode::getG	GCode.h	/^    inline uint16_t getG() {return g;}$/;"	f	class:GCode	access:public	signature:()
+GCode::getM	GCode.h	/^    inline uint16_t getM() {return m;}$/;"	f	class:GCode	access:public	signature:()
+GCode::getN	GCode.h	/^    inline int32_t getN() {return n;}$/;"	f	class:GCode	access:public	signature:()
+GCode::getOriginal	GCode.h	/^    inline const std::string& getOriginal() {return orig;}$/;"	f	class:GCode	access:public	signature:()
+GCode::getP	GCode.h	/^    inline int32_t getP() {return p;}$/;"	f	class:GCode	access:public	signature:()
+GCode::getS	GCode.h	/^    inline int32_t getS() {return s;}$/;"	f	class:GCode	access:public	signature:()
+GCode::getT	GCode.h	/^    inline uint8_t getT() {return t;}$/;"	f	class:GCode	access:public	signature:()
+GCode::getText	GCode.h	/^    inline const std::string& getText() {return text;}$/;"	f	class:GCode	access:public	signature:()
+GCode::getX	GCode.h	/^    inline float getX() {return x;}$/;"	f	class:GCode	access:public	signature:()
+GCode::getY	GCode.h	/^    inline float getY() {return y;}$/;"	f	class:GCode	access:public	signature:()
+GCode::getZ	GCode.h	/^    inline float getZ() {return z;}$/;"	f	class:GCode	access:public	signature:()
+GCode::hasComment	GCode.h	/^    inline bool hasComment() {return comment;}$/;"	f	class:GCode	access:public	signature:()
+GCode::hasE	GCode.h	/^    inline bool hasE() {return (fields & 64)!=0;}$/;"	f	class:GCode	access:public	signature:()
+GCode::hasF	GCode.h	/^    inline bool hasF() {return (fields & 256)!=0;}$/;"	f	class:GCode	access:public	signature:()
+GCode::hasG	GCode.h	/^    inline bool hasG() {return (fields & 4)!=0;}$/;"	f	class:GCode	access:public	signature:()
+GCode::hasI	GCode.h	/^    inline bool hasI() {return (fields2 & 1)!=0;}$/;"	f	class:GCode	access:public	signature:()
+GCode::hasJ	GCode.h	/^    inline bool hasJ() {return (fields2 & 2)!=0;}$/;"	f	class:GCode	access:public	signature:()
+GCode::hasM	GCode.h	/^    inline bool hasM()  {return (fields & 2)!=0;}$/;"	f	class:GCode	access:public	signature:()
+GCode::hasN	GCode.h	/^    inline bool hasN() {return (fields & 1)!=0;}$/;"	f	class:GCode	access:public	signature:()
+GCode::hasP	GCode.h	/^    inline bool hasP() {return (fields & 2048)!=0;}$/;"	f	class:GCode	access:public	signature:()
+GCode::hasR	GCode.h	/^    inline bool hasR() {return (fields2 & 4)!=0;}$/;"	f	class:GCode	access:public	signature:()
+GCode::hasS	GCode.h	/^    inline bool hasS() {return (fields & 1024)!=0;}$/;"	f	class:GCode	access:public	signature:()
+GCode::hasT	GCode.h	/^    inline bool hasT() {return (fields & 512)!=0;}$/;"	f	class:GCode	access:public	signature:()
+GCode::hasText	GCode.h	/^    inline bool hasText() {return (fields & 32768)!=0;}$/;"	f	class:GCode	access:public	signature:()
+GCode::hasX	GCode.h	/^    inline bool hasX() {return (fields & 8)!=0;}$/;"	f	class:GCode	access:public	signature:()
+GCode::hasY	GCode.h	/^    inline bool hasY() {return (fields & 16)!=0;}$/;"	f	class:GCode	access:public	signature:()
+GCode::hasZ	GCode.h	/^    inline bool hasZ() {return (fields & 32)!=0;}$/;"	f	class:GCode	access:public	signature:()
+GCode::hostCommand	GCode.h	/^    bool hostCommand;$/;"	m	class:GCode	access:public
+GCode::hostCommandPart	GCode.cpp	/^string GCode::hostCommandPart()$/;"	f	class:GCode	signature:()
+GCode::hostCommandPart	GCode.h	/^    std::string hostCommandPart();$/;"	p	class:GCode	access:public	signature:()
+GCode::hostParameter	GCode.cpp	/^string GCode::hostParameter()$/;"	f	class:GCode	signature:()
+GCode::hostParameter	GCode.h	/^    std::string hostParameter();$/;"	p	class:GCode	access:public	signature:()
+GCode::ii	GCode.h	/^    float x, y, z, e, f,ii,j,r;$/;"	m	class:GCode	access:public
+GCode::isV2	GCode.h	/^    inline bool isV2() {return (fields & 4096)!=0;}$/;"	f	class:GCode	access:public	signature:()
+GCode::j	GCode.h	/^    float x, y, z, e, f,ii,j,r;$/;"	m	class:GCode	access:public
+GCode::m	GCode.h	/^    uint16_t g, m;$/;"	m	class:GCode	access:public
+GCode::n	GCode.h	/^    int32_t n;$/;"	m	class:GCode	access:public
+GCode::orig	GCode.h	/^    std::string orig;$/;"	m	class:GCode	access:public
+GCode::p	GCode.h	/^    int32_t p;$/;"	m	class:GCode	access:public
+GCode::parse	GCode.cpp	/^void GCode::parse(Printer *printer) {$/;"	f	class:GCode	signature:(Printer *printer)
+GCode::parse	GCode.h	/^    void parse(Printer *printer);$/;"	p	class:GCode	access:private	signature:(Printer *printer)
+GCode::r	GCode.h	/^    float x, y, z, e, f,ii,j,r;$/;"	m	class:GCode	access:public
+GCode::s	GCode.h	/^    int32_t s;$/;"	m	class:GCode	access:public
+GCode::setN	GCode.cpp	/^void GCode::setN(int32_t line) {$/;"	f	class:GCode	signature:(int32_t line)
+GCode::setN	GCode.h	/^    void setN(int32_t line);$/;"	p	class:GCode	access:public	signature:(int32_t line)
+GCode::t	GCode.h	/^    uint8_t t;$/;"	m	class:GCode	access:public
+GCode::text	GCode.h	/^    std::string text;$/;"	m	class:GCode	access:public
+GCode::x	GCode.h	/^    float x, y, z, e, f,ii,j,r;$/;"	m	class:GCode	access:public
+GCode::y	GCode.h	/^    float x, y, z, e, f,ii,j,r;$/;"	m	class:GCode	access:public
+GCode::z	GCode.h	/^    float x, y, z, e, f,ii,j,r;$/;"	m	class:GCode	access:public
+GCode::~GCode	GCode.cpp	/^GCode::~GCode() {$/;"	f	class:GCode	signature:()
+GCode::~GCode	GCode.h	/^    ~GCode();$/;"	p	class:GCode	access:public	signature:()
+GCodeDataPacket	GCode.cpp	/^GCodeDataPacket::GCodeDataPacket(int _length,uint8_t *_data) {$/;"	f	class:GCodeDataPacket	signature:(int _length,uint8_t *_data)
+GCodeDataPacket	GCode.h	/^    GCodeDataPacket(int _length,uint8_t *_data);$/;"	p	class:GCodeDataPacket	access:public	signature:(int _length,uint8_t *_data)
+GCodeDataPacket	GCode.h	/^class GCodeDataPacket {$/;"	c
+GCodeDataPacket::GCodeDataPacket	GCode.cpp	/^GCodeDataPacket::GCodeDataPacket(int _length,uint8_t *_data) {$/;"	f	class:GCodeDataPacket	signature:(int _length,uint8_t *_data)
+GCodeDataPacket::GCodeDataPacket	GCode.h	/^    GCodeDataPacket(int _length,uint8_t *_data);$/;"	p	class:GCodeDataPacket	access:public	signature:(int _length,uint8_t *_data)
+GCodeDataPacket::data	GCode.h	/^    uint8_t *data;$/;"	m	class:GCodeDataPacket	access:public
+GCodeDataPacket::length	GCode.h	/^    int length;$/;"	m	class:GCodeDataPacket	access:public
+GCodeDataPacket::~GCodeDataPacket	GCode.cpp	/^GCodeDataPacket::~GCodeDataPacket() {$/;"	f	class:GCodeDataPacket	signature:()
+GCodeDataPacket::~GCodeDataPacket	GCode.h	/^    ~GCodeDataPacket();$/;"	p	class:GCodeDataPacket	access:public	signature:()
+GCodeDataPacketPtr	GCode.h	/^typedef boost::shared_ptr<GCodeDataPacket> GCodeDataPacketPtr;$/;"	t
+GCodePlan	timeEstimate.cpp	/^void TimeEstimateCalculator::GCodePlan()$/;"	f	class:TimeEstimateCalculator	signature:()
+GCodePlan	timeEstimate.h	/^	void GCodePlan();$/;"	p	class:TimeEstimateCalculator	access:public	signature:()
+GlobalConfig	global_config.cpp	/^GlobalConfig::GlobalConfig(string filename) {$/;"	f	class:GlobalConfig	signature:(string filename)
+GlobalConfig	global_config.h	/^    GlobalConfig(std::string filename);$/;"	p	class:GlobalConfig	access:public	signature:(std::string filename)
+GlobalConfig	global_config.h	/^class GlobalConfig {$/;"	c
+GlobalConfig::GlobalConfig	global_config.cpp	/^GlobalConfig::GlobalConfig(string filename) {$/;"	f	class:GlobalConfig	signature:(string filename)
+GlobalConfig::GlobalConfig	global_config.h	/^    GlobalConfig(std::string filename);$/;"	p	class:GlobalConfig	access:public	signature:(std::string filename)
+GlobalConfig::backlogSize	global_config.h	/^    int backlogSize;$/;"	m	class:GlobalConfig	access:private
+GlobalConfig::config	global_config.h	/^    libconfig::Config config;$/;"	m	class:GlobalConfig	access:private
+GlobalConfig::createMessage	global_config.cpp	/^void GlobalConfig::createMessage(std::string &msg,std::string &link) {$/;"	f	class:GlobalConfig	signature:(std::string &msg,std::string &link)
+GlobalConfig::createMessage	global_config.h	/^    void createMessage(std::string &msg,std::string &link);$/;"	p	class:GlobalConfig	access:public	signature:(std::string &msg,std::string &link)
+GlobalConfig::daemon	global_config.h	/^    bool daemon;$/;"	m	class:GlobalConfig	access:public
+GlobalConfig::defaultLanguage	global_config.h	/^    std::string defaultLanguage; \/\/\/< Default language if no language is detected$/;"	m	class:GlobalConfig	access:private
+GlobalConfig::fillJSONMessages	global_config.cpp	/^void GlobalConfig::fillJSONMessages(json_spirit::Array &arr) {$/;"	f	class:GlobalConfig	signature:(json_spirit::Array &arr)
+GlobalConfig::fillJSONMessages	global_config.h	/^    void fillJSONMessages(json_spirit::Array &obj);$/;"	p	class:GlobalConfig	access:public	signature:(json_spirit::Array &obj)
+GlobalConfig::findPrinterSlug	global_config.cpp	/^Printer *GlobalConfig::findPrinterSlug(const std::string& slug) {$/;"	f	class:GlobalConfig	signature:(const std::string& slug)
+GlobalConfig::findPrinterSlug	global_config.h	/^    Printer *findPrinterSlug(const std::string& slug);$/;"	p	class:GlobalConfig	access:public	signature:(const std::string& slug)
+GlobalConfig::getBacklogSize	global_config.h	/^    inline const int getBacklogSize() {return backlogSize;}$/;"	f	class:GlobalConfig	access:public	signature:()
+GlobalConfig::getDefaultLanguage	global_config.h	/^    inline const std::string& getDefaultLanguage() {return defaultLanguage;}$/;"	f	class:GlobalConfig	access:public	signature:()
+GlobalConfig::getLanguageDir	global_config.h	/^    inline const std::string& getLanguageDir() {return languageDir;}$/;"	f	class:GlobalConfig	access:public	signature:()
+GlobalConfig::getPorts	global_config.h	/^    inline const std::string& getPorts() {return ports;}$/;"	f	class:GlobalConfig	access:public	signature:()
+GlobalConfig::getPrinterConfigDir	global_config.h	/^    inline const std::string& getPrinterConfigDir() {return printerConfigDir;}$/;"	f	class:GlobalConfig	access:public	signature:()
+GlobalConfig::getPrinterList	global_config.h	/^    inline std::vector<Printer*> &getPrinterList() {return printers;}$/;"	f	class:GlobalConfig	access:public	signature:()
+GlobalConfig::getStorageDirectory	global_config.h	/^    inline const std::string& getStorageDirectory() {return storageDir;}$/;"	f	class:GlobalConfig	access:public	signature:()
+GlobalConfig::getWebsiteRoot	global_config.h	/^    inline const std::string& getWebsiteRoot() {return wwwDir;}$/;"	f	class:GlobalConfig	access:public	signature:()
+GlobalConfig::languageDir	global_config.h	/^    std::string languageDir; \/\/\/< Dir with translation text.$/;"	m	class:GlobalConfig	access:private
+GlobalConfig::msgCounter	global_config.h	/^    int msgCounter; \/\/\/< Last used message id.$/;"	m	class:GlobalConfig	access:private
+GlobalConfig::msgList	global_config.h	/^    std::list<RepetierMsgPtr> msgList; \/\/\/< List with active messages.$/;"	m	class:GlobalConfig	access:private
+GlobalConfig::msgMutex	global_config.h	/^    mutex msgMutex; \/\/\/< Mutex for thread safety of message system.$/;"	m	class:GlobalConfig	access:private
+GlobalConfig::ports	global_config.h	/^    std::string ports; \/\/\/< Ports the server should listen to.$/;"	m	class:GlobalConfig	access:private
+GlobalConfig::printerConfigDir	global_config.h	/^    std::string printerConfigDir; \/\/\/< Printer config directory$/;"	m	class:GlobalConfig	access:private
+GlobalConfig::printers	global_config.h	/^    std::vector<Printer*> printers;$/;"	m	class:GlobalConfig	access:private
+GlobalConfig::readPrinterConfigs	global_config.cpp	/^void GlobalConfig::readPrinterConfigs() {$/;"	f	class:GlobalConfig	signature:()
+GlobalConfig::readPrinterConfigs	global_config.h	/^    void readPrinterConfigs();$/;"	p	class:GlobalConfig	access:public	signature:()
+GlobalConfig::removeMessage	global_config.cpp	/^void GlobalConfig::removeMessage(int id) {$/;"	f	class:GlobalConfig	signature:(int id)
+GlobalConfig::removeMessage	global_config.h	/^    void removeMessage(int id);$/;"	p	class:GlobalConfig	access:public	signature:(int id)
+GlobalConfig::startPrinterThreads	global_config.cpp	/^void GlobalConfig::startPrinterThreads() {$/;"	f	class:GlobalConfig	signature:()
+GlobalConfig::startPrinterThreads	global_config.h	/^    void startPrinterThreads();$/;"	p	class:GlobalConfig	access:public	signature:()
+GlobalConfig::stopPrinterThreads	global_config.cpp	/^void GlobalConfig::stopPrinterThreads() {$/;"	f	class:GlobalConfig	signature:()
+GlobalConfig::stopPrinterThreads	global_config.h	/^    void stopPrinterThreads();$/;"	p	class:GlobalConfig	access:public	signature:()
+GlobalConfig::storageDir	global_config.h	/^    std::string storageDir; \/\/\/< Data storage directory.$/;"	m	class:GlobalConfig	access:private
+GlobalConfig::wwwDir	global_config.h	/^    std::string wwwDir; \/\/\/< Website root$/;"	m	class:GlobalConfig	access:private
+HTTP_500	WebserverAPI.cpp	/^    static const char *HTTP_500 = "HTTP\/1.0 500 Server Error\\r\\n\\r\\n";$/;"	m	namespace:repetier	file:
+HandlePagerequest	WebserverAPI.cpp	/^    void* HandlePagerequest(struct mg_connection *conn) {$/;"	f	namespace:repetier	signature:(struct mg_connection *conn)
+HandlePagerequest	WebserverAPI.h	/^    extern void* HandlePagerequest(struct mg_connection *conn);$/;"	p	namespace:repetier	signature:(struct mg_connection *conn)
+HandleWebrequest	WebserverAPI.cpp	/^    void HandleWebrequest(struct mg_connection *conn) {$/;"	f	namespace:repetier	signature:(struct mg_connection *conn)
+HandleWebrequest	WebserverAPI.h	/^    extern void HandleWebrequest(struct mg_connection *conn);$/;"	p	namespace:repetier	signature:(struct mg_connection *conn)
+JSONValueAsString	WebserverAPI.cpp	/^    string JSONValueAsString(const Value &v) {$/;"	f	namespace:repetier	signature:(const Value &v)
+MAX_HISTORY_SIZE	printer.h	35;"	d
+MG_getPostVar	WebserverAPI.cpp	/^    bool MG_getPostVar(char *buf,int buflen,const mg_request_info *info,const char *name, std::string &output) {$/;"	f	namespace:repetier	signature:(char *buf,int buflen,const mg_request_info *info,const char *name, std::string &output)
+MG_getPostVar	WebserverAPI.h	/^    extern bool MG_getPostVar(char *buf,int buflen,const mg_request_info *info,const char *name, std::string &output);$/;"	p	namespace:repetier	signature:(char *buf,int buflen,const mg_request_info *info,const char *name, std::string &output)
+MG_getVar	WebserverAPI.cpp	/^    bool MG_getVar(const mg_request_info *info,const char *name, std::string &output)$/;"	f	namespace:repetier	signature:(const mg_request_info *info,const char *name, std::string &output)
+MG_getVar	WebserverAPI.h	/^    extern bool MG_getVar(const mg_request_info *info,const char *name, std::string &output);$/;"	p	namespace:repetier	signature:(const mg_request_info *info,const char *name, std::string &output)
+MINIMUM_PLANNER_SPEED	timeEstimate.cpp	18;"	d	file:
+O_APPEND	WebserverAPI.cpp	65;"	d	file:
+O_CLOEXEC	WebserverAPI.cpp	63;"	d	file:
+O_CREAT	WebserverAPI.cpp	64;"	d	file:
+O_EXLOCK	WebserverAPI.cpp	62;"	d	file:
+O_EXLOCK	WebserverAPI.cpp	84;"	d	file:
+O_RDWR	WebserverAPI.cpp	67;"	d	file:
+O_TRUNC	WebserverAPI.cpp	66;"	d	file:
+PRINTER_C_ABS	PrinterState.h	31;"	d
+PRINTER_C_REL	PrinterState.h	30;"	d
+PRINTER_E_ABS	PrinterState.h	29;"	d
+PRINTER_E_REL	PrinterState.h	28;"	d
+PauseJob	printer.cpp	/^void Printer::PauseJob()$/;"	f	class:Printer	signature:()
+PauseJob	printer.h	/^    void PauseJob();$/;"	p	class:Printer	access:public	signature:()
+Printer	printer.cpp	/^Printer::Printer(string conf) {$/;"	f	class:Printer	signature:(string conf)
+Printer	printer.h	/^    Printer(std::string conf);$/;"	p	class:Printer	access:public	signature:(std::string conf)
+Printer	printer.h	/^class Printer {$/;"	c
+Printer::ContinueJob	printer.h	/^    void ContinueJob();$/;"	p	class:Printer	access:public	signature:()
+Printer::PauseJob	printer.cpp	/^void Printer::PauseJob()$/;"	f	class:Printer	signature:()
+Printer::PauseJob	printer.h	/^    void PauseJob();$/;"	p	class:Printer	access:public	signature:()
+Printer::Printer	printer.cpp	/^Printer::Printer(string conf) {$/;"	f	class:Printer	signature:(string conf)
+Printer::Printer	printer.h	/^    Printer(std::string conf);$/;"	p	class:Printer	access:public	signature:(std::string conf)
+Printer::active	printer.h	/^    bool active;$/;"	m	class:Printer	access:public
+Printer::addResponse	printer.cpp	/^void Printer::addResponse(const std::string& msg,uint8_t rtype) {$/;"	f	class:Printer	signature:(const std::string& msg,uint8_t rtype)
+Printer::addResponse	printer.h	/^    void addResponse(const std::string& msg,uint8_t rtype);$/;"	p	class:Printer	access:public	signature:(const std::string& msg,uint8_t rtype)
+Printer::analyseResponse	printer.cpp	/^void Printer::analyseResponse(string &res) {$/;"	f	class:Printer	signature:(string &res)
+Printer::analyseResponse	printer.h	/^    void analyseResponse(std::string &resp);$/;"	p	class:Printer	access:public	signature:(std::string &resp)
+Printer::baudrate	printer.h	/^    int32_t baudrate;$/;"	m	class:Printer	access:public
+Printer::binaryProtocol	printer.h	/^    int binaryProtocol;$/;"	m	class:Printer	access:public
+Printer::bytesSend	printer.h	/^    std::size_t bytesSend;$/;"	m	class:Printer	access:private
+Printer::cacheSize	printer.h	/^    int32_t cacheSize;$/;"	m	class:Printer	access:public
+Printer::close	printer.cpp	/^void Printer::close() {$/;"	f	class:Printer	signature:()
+Printer::close	printer.h	/^    void close();$/;"	p	class:Printer	access:private	signature:()
+Printer::config	printer.h	/^    libconfig::Config config;$/;"	m	class:Printer	access:private
+Printer::connectionClosed	printer.cpp	/^void Printer::connectionClosed() {$/;"	f	class:Printer	signature:()
+Printer::connectionClosed	printer.h	/^    void connectionClosed();$/;"	p	class:Printer	access:public	signature:()
+Printer::device	printer.h	/^    std::string device;$/;"	m	class:Printer	access:public
+Printer::errorsReceived	printer.h	/^    int errorsReceived;$/;"	m	class:Printer	access:private
+Printer::extract	printer.cpp	/^bool Printer::extract(const string& source,const string& ident,string &result)$/;"	f	class:Printer	signature:(const string& source,const string& ident,string &result)
+Printer::extract	printer.h	/^    bool extract(const std::string& source,const std::string& ident,std::string &result);$/;"	p	class:Printer	access:private	signature:(const std::string& source,const std::string& ident,std::string &result)
+Printer::extruderCount	printer.h	/^    int32_t extruderCount;$/;"	m	class:Printer	access:public
+Printer::fillJSONObject	printer.cpp	/^void Printer::fillJSONObject(json_spirit::Object &obj) {$/;"	f	class:Printer	signature:(json_spirit::Object &obj)
+Printer::fillJSONObject	printer.h	/^    void fillJSONObject(json_spirit::Object &obj);$/;"	p	class:Printer	access:public	signature:(json_spirit::Object &obj)
+Printer::garbageCleared	printer.h	/^    bool garbageCleared;$/;"	m	class:Printer	access:private
+Printer::getActive	printer.cpp	/^bool Printer::getActive() {$/;"	f	class:Printer	signature:()
+Printer::getActive	printer.h	/^    bool getActive();$/;"	p	class:Printer	access:public	signature:()
+Printer::getJobManager	printer.h	/^    inline PrintjobManager *getJobManager() {return jobManager;}$/;"	f	class:Printer	access:public	signature:()
+Printer::getJobStatus	printer.cpp	/^void Printer::getJobStatus(json_spirit::Object &obj) {$/;"	f	class:Printer	signature:(json_spirit::Object &obj)
+Printer::getJobStatus	printer.h	/^    void getJobStatus(json_spirit::Object &obj);$/;"	p	class:Printer	access:public	signature:(json_spirit::Object &obj)
+Printer::getModelManager	printer.h	/^    inline PrintjobManager *getModelManager() {return modelManager;}$/;"	f	class:Printer	access:public	signature:()
+Printer::getOnlineStatus	printer.cpp	/^int Printer::getOnlineStatus() {$/;"	f	class:Printer	signature:()
+Printer::getOnlineStatus	printer.h	/^    int getOnlineStatus();$/;"	p	class:Printer	access:public	signature:()
+Printer::getResponsesSince	printer.cpp	/^boost::shared_ptr<list<boost::shared_ptr<PrinterResponse> > > Printer::getResponsesSince(uint32_t resId,uint8_t filter,uint32_t &lastid) {$/;"	f	class:Printer	signature:(uint32_t resId,uint8_t filter,uint32_t &lastid)
+Printer::getResponsesSince	printer.h	/^	boost::shared_ptr<std::list<boost::shared_ptr<PrinterResponse> > > getResponsesSince(uint32_t resId,uint8_t filter,uint32_t &lastid);$/;"	p	class:Printer	access:public	signature:(uint32_t resId,uint8_t filter,uint32_t &lastid)
+Printer::getScriptManager	printer.h	/^    inline PrintjobManager *getScriptManager() {return scriptManager;}$/;"	f	class:Printer	access:public	signature:()
+Printer::hasHeatedBed	printer.h	/^    bool hasHeatedBed;$/;"	m	class:Printer	access:public
+Printer::history	printer.h	/^	std::deque<boost::shared_ptr<GCode> > history; \/\/\/< Buffer of the last commands send.$/;"	m	class:Printer	access:private
+Printer::homex	printer.h	/^    double homex,homey,homez;$/;"	m	class:Printer	access:public
+Printer::homey	printer.h	/^    double homex,homey,homez;$/;"	m	class:Printer	access:public
+Printer::homez	printer.h	/^    double homex,homey,homez;$/;"	m	class:Printer	access:public
+Printer::ignoreNextOk	printer.h	/^    bool ignoreNextOk; \/\/\/< Ignore the next ok because resend already indicated receive$/;"	m	class:Printer	access:private
+Printer::injectJobCommand	printer.cpp	/^void Printer::injectJobCommand(const std::string& cmd) $/;"	f	class:Printer	signature:(const std::string& cmd)
+Printer::injectJobCommand	printer.h	/^    void injectJobCommand(const std::string& cmd);$/;"	p	class:Printer	access:public	signature:(const std::string& cmd)
+Printer::injectManualCommand	printer.cpp	/^void Printer::injectManualCommand(const std::string& cmd) {$/;"	f	class:Printer	signature:(const std::string& cmd)
+Printer::injectManualCommand	printer.h	/^    void injectManualCommand(const std::string& cmd);$/;"	p	class:Printer	access:public	signature:(const std::string& cmd)
+Printer::jobCommands	printer.h	/^	std::deque<std::string> jobCommands; \/\/\/< Buffer of commands comming from a job. Not necessaryly the complete job! Job may refill the buffer if it gets empty.$/;"	m	class:Printer	access:private
+Printer::jobCommandsStored	printer.cpp	/^size_t Printer::jobCommandsStored() {$/;"	f	class:Printer	signature:()
+Printer::jobCommandsStored	printer.h	/^    size_t jobCommandsStored();$/;"	p	class:Printer	access:public	signature:()
+Printer::jobManager	printer.h	/^    PrintjobManager *jobManager;$/;"	m	class:Printer	access:private
+Printer::jobPause	printer.h	/^		bool jobPause;  \/\/\/1:pause  0:contine$/;"	m	class:Printer	access:public
+Printer::lastCommandSend	printer.h	/^    boost::posix_time::ptime lastCommandSend;$/;"	m	class:Printer	access:private
+Printer::lastResponseId	printer.h	/^    uint32_t lastResponseId;$/;"	m	class:Printer	access:private
+Printer::lastTemp	printer.h	/^    boost::posix_time::ptime lastTemp; \/\/\/< Last temp read. Always access with lastTempMutex$/;"	m	class:Printer	access:private
+Printer::lastTempMutex	printer.h	/^    boost::mutex lastTempMutex;$/;"	m	class:Printer	access:private
+Printer::linesSend	printer.h	/^    int linesSend;$/;"	m	class:Printer	access:private
+Printer::manageHostCommand	printer.cpp	/^void Printer::manageHostCommand(boost::shared_ptr<GCode> &cmd) {$/;"	f	class:Printer	signature:(boost::shared_ptr<GCode> &cmd)
+Printer::manageHostCommand	printer.h	/^    void manageHostCommand(boost::shared_ptr<GCode> &cmd);$/;"	p	class:Printer	access:private	signature:(boost::shared_ptr<GCode> &cmd)
+Printer::manualCommands	printer.h	/^	std::deque<std::string> manualCommands; \/\/\/< Buffer of manual commands to send.$/;"	m	class:Printer	access:private
+Printer::modelManager	printer.h	/^    PrintjobManager *modelManager;$/;"	m	class:Printer	access:private
+Printer::move	printer.cpp	/^void Printer::move(double x,double y,double z,double e) {$/;"	f	class:Printer	signature:(double x,double y,double z,double e)
+Printer::move	printer.h	/^    void move(double x,double y,double z,double e);$/;"	p	class:Printer	access:public	signature:(double x,double y,double z,double e)
+Printer::mutex	printer.h	/^    boost::mutex mutex;$/;"	m	class:Printer	access:private
+Printer::nackLines	printer.h	/^	std::deque<int> nackLines; \/\/\/< Length of unacknowledged lines send.$/;"	m	class:Printer	access:private
+Printer::name	printer.h	/^    std::string name;$/;"	m	class:Printer	access:public
+Printer::okAfterResend	printer.h	/^    bool okAfterResend;$/;"	m	class:Printer	access:public
+Printer::paused	printer.h	/^    bool paused;$/;"	m	class:Printer	access:private
+Printer::pingpong	printer.h	/^    bool pingpong;$/;"	m	class:Printer	access:public
+Printer::readyForNextSend	printer.h	/^    bool readyForNextSend; \/\/\/< In pingpong mode indicates that ok was received for the last line.$/;"	m	class:Printer	access:private
+Printer::receiveCacheFill	printer.h	/^    int receiveCacheFill; \/\/\/< Bytes send to the printer that are not acknowledged.$/;"	m	class:Printer	access:private
+Printer::resendError	printer.h	/^    int resendError;$/;"	m	class:Printer	access:private
+Printer::resendLine	printer.cpp	/^void Printer::resendLine(size_t line)$/;"	f	class:Printer	signature:(size_t line)
+Printer::resendLine	printer.h	/^    void resendLine(size_t line);$/;"	p	class:Printer	access:private	signature:(size_t line)
+Printer::resendLines	printer.h	/^	std::deque<boost::shared_ptr<GCode> > resendLines; \/\/\/< Lines for which a resend was requested.$/;"	m	class:Printer	access:private
+Printer::responseMutex	printer.h	/^    boost::mutex responseMutex;$/;"	m	class:Printer	access:private
+Printer::responses	printer.h	/^    std::deque<boost::shared_ptr<PrinterResponse> > responses;$/;"	m	class:Printer	access:private
+Printer::run	printer.cpp	/^void Printer::run() {$/;"	f	class:Printer	signature:()
+Printer::run	printer.h	/^    void run();$/;"	p	class:Printer	access:private	signature:()
+Printer::scriptManager	printer.h	/^    PrintjobManager *scriptManager;$/;"	m	class:Printer	access:private
+Printer::sendMutex	printer.h	/^    boost::mutex sendMutex;$/;"	m	class:Printer	access:private
+Printer::serial	printer.h	/^    PrinterSerial *serial;$/;"	m	class:Printer	access:private
+Printer::setActive	printer.cpp	/^void Printer::setActive(bool v) {$/;"	f	class:Printer	signature:(bool v)
+Printer::setActive	printer.h	/^    void setActive(bool v);$/;"	p	class:Printer	access:public	signature:(bool v)
+Printer::shouldInjectCommand	printer.cpp	/^bool Printer::shouldInjectCommand(const std::string& cmd) {$/;"	f	class:Printer	signature:(const std::string& cmd)
+Printer::shouldInjectCommand	printer.h	/^    bool shouldInjectCommand(const std::string& cmd);$/;"	p	class:Printer	access:public	signature:(const std::string& cmd)
+Printer::slugName	printer.h	/^    std::string slugName;$/;"	m	class:Printer	access:public
+Printer::speedeExtrude	printer.h	/^    double speedx,speedy,speedz,speedeExtrude,speedeRetract;$/;"	m	class:Printer	access:public
+Printer::speedeRetract	printer.h	/^    double speedx,speedy,speedz,speedeExtrude,speedeRetract;$/;"	m	class:Printer	access:public
+Printer::speedx	printer.h	/^    double speedx,speedy,speedz,speedeExtrude,speedeRetract;$/;"	m	class:Printer	access:public
+Printer::speedy	printer.h	/^    double speedx,speedy,speedz,speedeExtrude,speedeRetract;$/;"	m	class:Printer	access:public
+Printer::speedz	printer.h	/^    double speedx,speedy,speedz,speedeExtrude,speedeRetract;$/;"	m	class:Printer	access:public
+Printer::startThread	printer.cpp	/^void Printer::startThread() {$/;"	f	class:Printer	signature:()
+Printer::startThread	printer.h	/^    void startThread();$/;"	p	class:Printer	access:public	signature:()
+Printer::state	printer.h	/^    PrinterState *state;$/;"	m	class:Printer	access:public
+Printer::stopPause	printer.cpp	/^void Printer::stopPause() {$/;"	f	class:Printer	signature:()
+Printer::stopPause	printer.h	/^    void stopPause();$/;"	p	class:Printer	access:public	signature:()
+Printer::stopRequested	printer.h	/^    volatile bool stopRequested;$/;"	m	class:Printer	access:private
+Printer::stopThread	printer.cpp	/^void Printer::stopThread() {$/;"	f	class:Printer	signature:()
+Printer::stopThread	printer.h	/^    void stopThread();$/;"	p	class:Printer	access:public	signature:()
+Printer::thread	printer.h	/^    boost::shared_ptr<boost::thread> thread;$/;"	m	class:Printer	access:private
+Printer::trySendNextLine	printer.cpp	/^void Printer::trySendNextLine() {$/;"	f	class:Printer	signature:()
+Printer::trySendNextLine	printer.h	/^    void trySendNextLine(); \/\/ Send another line if possible$/;"	p	class:Printer	access:private	signature:()
+Printer::trySendPacket	printer.cpp	/^bool Printer::trySendPacket(GCodeDataPacketPtr &dp,shared_ptr<GCode> &gc) {$/;"	f	class:Printer	signature:(GCodeDataPacketPtr &dp,shared_ptr<GCode> &gc)
+Printer::trySendPacket	printer.h	/^    bool trySendPacket(GCodeDataPacketPtr &dp,boost::shared_ptr<GCode> &gc);$/;"	p	class:Printer	access:private	signature:(GCodeDataPacketPtr &dp,boost::shared_ptr<GCode> &gc)
+Printer::updateLastTempMutex	printer.cpp	/^void Printer::updateLastTempMutex() {$/;"	f	class:Printer	signature:()
+Printer::updateLastTempMutex	printer.h	/^    void updateLastTempMutex();$/;"	p	class:Printer	access:public	signature:()
+Printer::updateTempEvery	printer.h	/^    int updateTempEvery;$/;"	m	class:Printer	access:private
+Printer::xmax	printer.h	/^    double xmin,xmax;$/;"	m	class:Printer	access:public
+Printer::xmin	printer.h	/^    double xmin,xmax;$/;"	m	class:Printer	access:public
+Printer::ymax	printer.h	/^    double ymin,ymax;$/;"	m	class:Printer	access:public
+Printer::ymin	printer.h	/^    double ymin,ymax;$/;"	m	class:Printer	access:public
+Printer::zmax	printer.h	/^    double zmin,zmax;$/;"	m	class:Printer	access:public
+Printer::zmin	printer.h	/^    double zmin,zmax;$/;"	m	class:Printer	access:public
+Printer::~Printer	printer.cpp	/^Printer::~Printer() {$/;"	f	class:Printer	signature:()
+Printer::~Printer	printer.h	/^    ~Printer();$/;"	p	class:Printer	access:public	signature:()
+PrinterHistoryLine	printer.h	/^    PrinterHistoryLine(const std::string& com,int l):command(com),line(l) {}$/;"	f	class:PrinterHistoryLine	access:public	signature:(const std::string& com,int l)
+PrinterHistoryLine	printer.h	/^class PrinterHistoryLine {$/;"	c
+PrinterHistoryLine::PrinterHistoryLine	printer.h	/^    PrinterHistoryLine(const std::string& com,int l):command(com),line(l) {}$/;"	f	class:PrinterHistoryLine	access:public	signature:(const std::string& com,int l)
+PrinterHistoryLine::command	printer.h	/^    std::string command;$/;"	m	class:PrinterHistoryLine	access:public
+PrinterHistoryLine::line	printer.h	/^    uint32_t line;$/;"	m	class:PrinterHistoryLine	access:public
+PrinterPauseBTem	PrinterState.h	/^    double PrinterPauseBTem;        \/\/M140 S<temp> F1 - Set bed target temp, F1 makes a beep when temperature is reached the first time  -M190 - Wait for bed current temp to reach target temp.$/;"	m	class:PrinterState	access:public
+PrinterPauseCReletive	PrinterState.h	/^    double PrinterPauseCReletive;   \/\/G90 - Use absolute coordinates   - G91 - Use relative coordinates$/;"	m	class:PrinterState	access:public
+PrinterPauseE	PrinterState.h	/^    double PrinterPauseE;           \/\/G92 Exx- Set current position to cordinates given$/;"	m	class:PrinterState	access:public
+PrinterPauseEReletive	PrinterState.h	/^    double PrinterPauseEReletive;   \/\/M82  - Set E codes absolute (default)   - M83  - Set E codes relative while in Absolute Coordinates (G90) mode$/;"	m	class:PrinterState	access:public
+PrinterPauseETem	PrinterState.h	/^    double PrinterPauseETem;        \/\/M104 - Set extruder target temp  -M109 - Wait for extruder current temp to reach target temp.$/;"	m	class:PrinterState	access:public
+PrinterPauseFanspeed	PrinterState.h	/^    double PrinterPauseFanspeed;    \/\/- M106 S255- Fan on - M107 - Fan off$/;"	m	class:PrinterState	access:public
+PrinterPauseFeedrate	PrinterState.h	/^   	double PrinterPauseFeedrate;   \/\/G1 Fxxx$/;"	m	class:PrinterState	access:public
+PrinterPauseX	PrinterState.h	/^    double PrinterPauseX;$/;"	m	class:PrinterState	access:public
+PrinterPauseY	PrinterState.h	/^    double PrinterPauseY;$/;"	m	class:PrinterState	access:public
+PrinterPauseZ	PrinterState.h	/^    double PrinterPauseZ;           \/\/G92 Zxx- Set current position to cordinates given$/;"	m	class:PrinterState	access:public
+PrinterPowerDown	PrinterState.h	/^    bool   PrinterPowerDown;$/;"	m	class:PrinterState	access:public
+PrinterResponse	printer.cpp	/^PrinterResponse::PrinterResponse(const string& mes,uint32_t id,uint8_t tp):message(mes) {$/;"	f	class:PrinterResponse	signature:(const string& mes,uint32_t id,uint8_t tp)
+PrinterResponse	printer.h	/^    PrinterResponse(const std::string& message,uint32_t id,uint8_t tp);$/;"	p	class:PrinterResponse	access:public	signature:(const std::string& message,uint32_t id,uint8_t tp)
+PrinterResponse	printer.h	/^class PrinterResponse {$/;"	c
+PrinterResponse::PrinterResponse	printer.cpp	/^PrinterResponse::PrinterResponse(const string& mes,uint32_t id,uint8_t tp):message(mes) {$/;"	f	class:PrinterResponse	signature:(const string& mes,uint32_t id,uint8_t tp)
+PrinterResponse::PrinterResponse	printer.h	/^    PrinterResponse(const std::string& message,uint32_t id,uint8_t tp);$/;"	p	class:PrinterResponse	access:public	signature:(const std::string& message,uint32_t id,uint8_t tp)
+PrinterResponse::getTimeString	printer.cpp	/^std::string PrinterResponse::getTimeString() {$/;"	f	class:PrinterResponse	signature:()
+PrinterResponse::getTimeString	printer.h	/^    std::string getTimeString();$/;"	p	class:PrinterResponse	access:public	signature:()
+PrinterResponse::logtype	printer.h	/^    uint8_t logtype;$/;"	m	class:PrinterResponse	access:public
+PrinterResponse::message	printer.h	/^    std::string message;$/;"	m	class:PrinterResponse	access:public
+PrinterResponse::responseId	printer.h	/^    uint32_t responseId;$/;"	m	class:PrinterResponse	access:public
+PrinterResponse::time	printer.h	/^    boost::posix_time::ptime time;$/;"	m	class:PrinterResponse	access:public
+PrinterSerial	PrinterSerial.cpp	/^PrinterSerial::PrinterSerial(Printer &prt):io(),port(io) {$/;"	f	class:PrinterSerial	signature:(Printer &prt)
+PrinterSerial	PrinterSerial.h	/^    PrinterSerial(Printer &prt);$/;"	p	class:PrinterSerial	access:public	signature:(Printer &prt)
+PrinterSerial	PrinterSerial.h	/^class PrinterSerial {$/;"	c
+PrinterSerial::PrinterSerial	PrinterSerial.cpp	/^PrinterSerial::PrinterSerial(Printer &prt):io(),port(io) {$/;"	f	class:PrinterSerial	signature:(Printer &prt)
+PrinterSerial::PrinterSerial	PrinterSerial.h	/^    PrinterSerial(Printer &prt);$/;"	p	class:PrinterSerial	access:public	signature:(Printer &prt)
+PrinterSerial::backgroundThread	PrinterSerial.h	/^    boost::thread backgroundThread; \/\/\/< Thread that runs read\/write operations$/;"	m	class:PrinterSerial	access:private
+PrinterSerial::baudrate	PrinterSerial.h	/^    boost::asio::serial_port_base::baud_rate baudrate;$/;"	m	class:PrinterSerial	access:private
+PrinterSerial::callback	PrinterSerial.h	/^    boost::function<void (const char*, size_t)> callback;$/;"	m	class:PrinterSerial	access:private
+PrinterSerial::characterSize	PrinterSerial.h	/^    boost::asio::serial_port_base::character_size characterSize;$/;"	m	class:PrinterSerial	access:private
+PrinterSerial::close	PrinterSerial.cpp	/^void PrinterSerial::close() {$/;"	f	class:PrinterSerial	signature:()
+PrinterSerial::close	PrinterSerial.h	/^    void close();$/;"	p	class:PrinterSerial	access:public	signature:()
+PrinterSerial::doClose	PrinterSerial.cpp	/^void PrinterSerial::doClose()$/;"	f	class:PrinterSerial	signature:()
+PrinterSerial::doClose	PrinterSerial.h	/^    void doClose();$/;"	p	class:PrinterSerial	access:private	signature:()
+PrinterSerial::doRead	PrinterSerial.cpp	/^void PrinterSerial::doRead() {$/;"	f	class:PrinterSerial	signature:()
+PrinterSerial::doRead	PrinterSerial.h	/^    void doRead();$/;"	p	class:PrinterSerial	access:private	signature:()
+PrinterSerial::doWrite	PrinterSerial.cpp	/^void PrinterSerial::doWrite()$/;"	f	class:PrinterSerial	signature:()
+PrinterSerial::doWrite	PrinterSerial.h	/^    void doWrite();$/;"	p	class:PrinterSerial	access:private	signature:()
+PrinterSerial::error	PrinterSerial.h	/^    bool error; \/\/\/< Error flag$/;"	m	class:PrinterSerial	access:private
+PrinterSerial::errorMutex	PrinterSerial.h	/^    mutable boost::mutex errorMutex; \/\/\/< Mutex for access to error$/;"	m	class:PrinterSerial	access:private
+PrinterSerial::errorStatus	PrinterSerial.cpp	/^bool PrinterSerial::errorStatus() const$/;"	f	class:PrinterSerial	signature:() const
+PrinterSerial::errorStatus	PrinterSerial.h	/^    bool errorStatus() const;$/;"	p	class:PrinterSerial	access:public	signature:() const
+PrinterSerial::flowControl	PrinterSerial.h	/^    boost::asio::serial_port_base::flow_control flowControl;$/;"	m	class:PrinterSerial	access:private
+PrinterSerial::io	PrinterSerial.h	/^    boost::asio::io_service io; \/\/\/< Io service object$/;"	m	class:PrinterSerial	access:private
+PrinterSerial::isConnected	PrinterSerial.cpp	/^bool PrinterSerial::isConnected() {$/;"	f	class:PrinterSerial	signature:()
+PrinterSerial::isConnected	PrinterSerial.h	/^    bool isConnected();$/;"	p	class:PrinterSerial	access:public	signature:()
+PrinterSerial::isOpen	PrinterSerial.cpp	/^bool PrinterSerial::isOpen() {$/;"	f	class:PrinterSerial	signature:()
+PrinterSerial::isOpen	PrinterSerial.h	/^    bool isOpen();$/;"	p	class:PrinterSerial	access:public	signature:()
+PrinterSerial::open	PrinterSerial.h	/^    bool open; \/\/\/< True if port open$/;"	m	class:PrinterSerial	access:private
+PrinterSerial::parity	PrinterSerial.h	/^    boost::asio::serial_port_base::parity parity;$/;"	m	class:PrinterSerial	access:private
+PrinterSerial::port	PrinterSerial.h	/^    PrinterSerialPort port; \/\/\/< Serial port object$/;"	m	class:PrinterSerial	access:private
+PrinterSerial::printer	PrinterSerial.h	/^    Printer *printer;$/;"	m	class:PrinterSerial	access:private
+PrinterSerial::readBuffer	PrinterSerial.h	/^    char readBuffer[READ_BUFFER_SIZE]; \/\/\/< data being read$/;"	m	class:PrinterSerial	access:private
+PrinterSerial::readEnd	PrinterSerial.cpp	/^void PrinterSerial::readEnd(const boost::system::error_code& error,$/;"	f	class:PrinterSerial	signature:(const boost::system::error_code& error, size_t bytes_transferred)
+PrinterSerial::readEnd	PrinterSerial.h	/^    void readEnd(const boost::system::error_code& error,size_t bytes_transferred);$/;"	p	class:PrinterSerial	access:private	signature:(const boost::system::error_code& error,size_t bytes_transferred)
+PrinterSerial::readString	PrinterSerial.h	/^    std::string readString;$/;"	m	class:PrinterSerial	access:private
+PrinterSerial::resetPrinter	PrinterSerial.cpp	/^void PrinterSerial::resetPrinter() {$/;"	f	class:PrinterSerial	signature:()
+PrinterSerial::resetPrinter	PrinterSerial.h	/^    void resetPrinter();$/;"	p	class:PrinterSerial	access:public	signature:()
+PrinterSerial::setErrorStatus	PrinterSerial.cpp	/^void PrinterSerial::setErrorStatus(bool e) {$/;"	f	class:PrinterSerial	signature:(bool e)
+PrinterSerial::setErrorStatus	PrinterSerial.h	/^    void setErrorStatus(bool e);$/;"	p	class:PrinterSerial	access:public	signature:(bool e)
+PrinterSerial::stopBits	PrinterSerial.h	/^    boost::asio::serial_port_base::stop_bits stopBits;$/;"	m	class:PrinterSerial	access:private
+PrinterSerial::tryConnect	PrinterSerial.cpp	/^bool PrinterSerial::tryConnect() {$/;"	f	class:PrinterSerial	signature:()
+PrinterSerial::tryConnect	PrinterSerial.h	/^    bool tryConnect();$/;"	p	class:PrinterSerial	access:public	signature:()
+PrinterSerial::writeBuffer	PrinterSerial.h	/^    boost::shared_array<char> writeBuffer; \/\/\/< Data being written$/;"	m	class:PrinterSerial	access:private
+PrinterSerial::writeBufferSize	PrinterSerial.h	/^    size_t writeBufferSize; \/\/\/< Size of writeBuffer$/;"	m	class:PrinterSerial	access:private
+PrinterSerial::writeBytes	PrinterSerial.cpp	/^void PrinterSerial::writeBytes(const uint8_t* data,size_t len) {$/;"	f	class:PrinterSerial	signature:(const uint8_t* data,size_t len)
+PrinterSerial::writeBytes	PrinterSerial.h	/^    void writeBytes(const uint8_t* data,size_t len);$/;"	p	class:PrinterSerial	access:public	signature:(const uint8_t* data,size_t len)
+PrinterSerial::writeEnd	PrinterSerial.cpp	/^void PrinterSerial::writeEnd(const boost::system::error_code& error)$/;"	f	class:PrinterSerial	signature:(const boost::system::error_code& error)
+PrinterSerial::writeEnd	PrinterSerial.h	/^    void writeEnd(const boost::system::error_code& error);$/;"	p	class:PrinterSerial	access:private	signature:(const boost::system::error_code& error)
+PrinterSerial::writeQueue	PrinterSerial.h	/^    std::vector<char> writeQueue;$/;"	m	class:PrinterSerial	access:private
+PrinterSerial::writeQueueMutex	PrinterSerial.h	/^    boost::mutex writeQueueMutex; \/\/\/< Mutex for access to writeQueue$/;"	m	class:PrinterSerial	access:private
+PrinterSerial::writeString	PrinterSerial.cpp	/^void PrinterSerial::writeString(const std::string& s)$/;"	f	class:PrinterSerial	signature:(const std::string& s)
+PrinterSerial::writeString	PrinterSerial.h	/^    void writeString(const std::string& s);$/;"	p	class:PrinterSerial	access:public	signature:(const std::string& s)
+PrinterSerial::~PrinterSerial	PrinterSerial.cpp	/^PrinterSerial::~PrinterSerial()$/;"	f	class:PrinterSerial	signature:()
+PrinterSerial::~PrinterSerial	PrinterSerial.h	/^    ~PrinterSerial();$/;"	p	class:PrinterSerial	access:public	signature:()
+PrinterSerialPort	PrinterSerial.h	/^    inline PrinterSerialPort(boost::asio::io_service &io):boost::asio::serial_port(io) {}$/;"	f	class:PrinterSerialPort	access:public	signature:(boost::asio::io_service &io)
+PrinterSerialPort	PrinterSerial.h	/^class PrinterSerialPort:public boost::asio::serial_port {$/;"	c	inherits:boost::asio::serial_port
+PrinterSerialPort::PrinterSerialPort	PrinterSerial.h	/^    inline PrinterSerialPort(boost::asio::io_service &io):boost::asio::serial_port(io) {}$/;"	f	class:PrinterSerialPort	access:public	signature:(boost::asio::io_service &io)
+PrinterSerialPort::debugTermios	PrinterSerial.cpp	/^void PrinterSerialPort::debugTermios() {$/;"	f	class:PrinterSerialPort	signature:()
+PrinterSerialPort::debugTermios	PrinterSerial.h	/^    void debugTermios();$/;"	p	class:PrinterSerialPort	access:public	signature:()
+PrinterSerialPort::setDTR	PrinterSerial.cpp	/^void PrinterSerialPort::setDTR(bool on) {$/;"	f	class:PrinterSerialPort	signature:(bool on)
+PrinterSerialPort::setDTR	PrinterSerial.h	/^    void setDTR(bool on);$/;"	p	class:PrinterSerialPort	access:public	signature:(bool on)
+PrinterSerialPort::set_baudrate	PrinterSerial.cpp	/^void PrinterSerialPort::set_baudrate(int baud) {$/;"	f	class:PrinterSerialPort	signature:(int baud)
+PrinterSerialPort::set_baudrate	PrinterSerial.h	/^    void set_baudrate(int baud);$/;"	p	class:PrinterSerialPort	access:public	signature:(int baud)
+PrinterState	PrinterState.cpp	/^PrinterState::PrinterState(Printer *p) {$/;"	f	class:PrinterState	signature:(Printer *p)
+PrinterState	PrinterState.h	/^    PrinterState(Printer *p);$/;"	p	class:PrinterState	access:public	signature:(Printer *p)
+PrinterState	PrinterState.h	/^class PrinterState {$/;"	c
+PrinterState::PrinterPauseBTem	PrinterState.h	/^    double PrinterPauseBTem;        \/\/M140 S<temp> F1 - Set bed target temp, F1 makes a beep when temperature is reached the first time  -M190 - Wait for bed current temp to reach target temp.$/;"	m	class:PrinterState	access:public
+PrinterState::PrinterPauseCReletive	PrinterState.h	/^    double PrinterPauseCReletive;   \/\/G90 - Use absolute coordinates   - G91 - Use relative coordinates$/;"	m	class:PrinterState	access:public
+PrinterState::PrinterPauseE	PrinterState.h	/^    double PrinterPauseE;           \/\/G92 Exx- Set current position to cordinates given$/;"	m	class:PrinterState	access:public
+PrinterState::PrinterPauseEReletive	PrinterState.h	/^    double PrinterPauseEReletive;   \/\/M82  - Set E codes absolute (default)   - M83  - Set E codes relative while in Absolute Coordinates (G90) mode$/;"	m	class:PrinterState	access:public
+PrinterState::PrinterPauseETem	PrinterState.h	/^    double PrinterPauseETem;        \/\/M104 - Set extruder target temp  -M109 - Wait for extruder current temp to reach target temp.$/;"	m	class:PrinterState	access:public
+PrinterState::PrinterPauseFanspeed	PrinterState.h	/^    double PrinterPauseFanspeed;    \/\/- M106 S255- Fan on - M107 - Fan off$/;"	m	class:PrinterState	access:public
+PrinterState::PrinterPauseFeedrate	PrinterState.h	/^   	double PrinterPauseFeedrate;   \/\/G1 Fxxx$/;"	m	class:PrinterState	access:public
+PrinterState::PrinterPauseX	PrinterState.h	/^    double PrinterPauseX;$/;"	m	class:PrinterState	access:public
+PrinterState::PrinterPauseY	PrinterState.h	/^    double PrinterPauseY;$/;"	m	class:PrinterState	access:public
+PrinterState::PrinterPauseZ	PrinterState.h	/^    double PrinterPauseZ;           \/\/G92 Zxx- Set current position to cordinates given$/;"	m	class:PrinterState	access:public
+PrinterState::PrinterPowerDown	PrinterState.h	/^    bool   PrinterPowerDown;$/;"	m	class:PrinterState	access:public
+PrinterState::PrinterState	PrinterState.cpp	/^PrinterState::PrinterState(Printer *p) {$/;"	f	class:PrinterState	signature:(Printer *p)
+PrinterState::PrinterState	PrinterState.h	/^    PrinterState(Printer *p);$/;"	p	class:PrinterState	access:public	signature:(Printer *p)
+PrinterState::activeExtruder	PrinterState.h	/^    int activeExtruder;$/;"	m	class:PrinterState	access:private
+PrinterState::analyseResponse	PrinterState.cpp	/^void PrinterState::analyseResponse(const string &res,uint8_t &rtype) {$/;"	f	class:PrinterState	signature:(const string &res,uint8_t &rtype)
+PrinterState::analyseResponse	PrinterState.h	/^    void analyseResponse(const std::string &res,uint8_t &rtype);$/;"	p	class:PrinterState	access:public	signature:(const std::string &res,uint8_t &rtype)
+PrinterState::analyze	PrinterState.cpp	/^void PrinterState::analyze(GCode &code)$/;"	f	class:PrinterState	signature:(GCode &code)
+PrinterState::analyze	PrinterState.h	/^    void analyze(GCode &code);$/;"	p	class:PrinterState	access:public	signature:(GCode &code)
+PrinterState::bed	PrinterState.h	/^    PrinterTemp bed;$/;"	m	class:PrinterState	access:private
+PrinterState::binaryVersion	PrinterState.h	/^    int binaryVersion;$/;"	m	class:PrinterState	access:private
+PrinterState::debugLevel	PrinterState.h	/^    int debugLevel;$/;"	m	class:PrinterState	access:private
+PrinterState::decreaseLastline	PrinterState.cpp	/^uint32_t PrinterState::decreaseLastline() {$/;"	f	class:PrinterState	signature:()
+PrinterState::decreaseLastline	PrinterState.h	/^    uint32_t decreaseLastline();$/;"	p	class:PrinterState	access:public	signature:()
+PrinterState::drawing	PrinterState.h	/^    bool drawing;$/;"	m	class:PrinterState	access:private
+PrinterState::e	PrinterState.h	/^    double x, y, z, e,emax,f,eprinter;$/;"	m	class:PrinterState	access:private
+PrinterState::eChanged	PrinterState.h	/^    bool eChanged;$/;"	m	class:PrinterState	access:private
+PrinterState::eOffset	PrinterState.h	/^    double xOffset, yOffset, zOffset, eOffset;$/;"	m	class:PrinterState	access:private
+PrinterState::eRelative	PrinterState.h	/^    bool eRelative;$/;"	m	class:PrinterState	access:private
+PrinterState::emax	PrinterState.h	/^    double x, y, z, e,emax,f,eprinter;$/;"	m	class:PrinterState	access:private
+PrinterState::eprinter	PrinterState.h	/^    double x, y, z, e,emax,f,eprinter;$/;"	m	class:PrinterState	access:private
+PrinterState::extract	PrinterState.cpp	/^bool PrinterState::extract(const string& source,const string& ident,string &result)$/;"	f	class:PrinterState	signature:(const string& source,const string& ident,string &result)
+PrinterState::extract	PrinterState.h	/^    bool extract(const std::string& source,const std::string& ident,std::string &result);$/;"	p	class:PrinterState	access:public	signature:(const std::string& source,const std::string& ident,std::string &result)
+PrinterState::extruder	PrinterState.h	/^    PrinterTemp* extruder;$/;"	m	class:PrinterState	access:private
+PrinterState::extruderCountSend	PrinterState.h	/^    int extruderCountSend;$/;"	m	class:PrinterState	access:private
+PrinterState::f	PrinterState.h	/^    double x, y, z, e,emax,f,eprinter;$/;"	m	class:PrinterState	access:private
+PrinterState::fanOn	PrinterState.h	/^    bool fanOn;$/;"	m	class:PrinterState	access:private
+PrinterState::fanVoltage	PrinterState.h	/^    int fanVoltage;$/;"	m	class:PrinterState	access:private
+PrinterState::fillJSONObject	PrinterState.cpp	/^void PrinterState::fillJSONObject(json_spirit::Object &obj) {$/;"	f	class:PrinterState	signature:(json_spirit::Object &obj)
+PrinterState::fillJSONObject	PrinterState.h	/^    void fillJSONObject(json_spirit::Object &obj);$/;"	p	class:PrinterState	access:public	signature:(json_spirit::Object &obj)
+PrinterState::firmware	PrinterState.h	/^    std::string firmware;$/;"	m	class:PrinterState	access:private
+PrinterState::firmwareURL	PrinterState.h	/^    std::string firmwareURL;$/;"	m	class:PrinterState	access:private
+PrinterState::flowMultiply	PrinterState.h	/^    int flowMultiply;$/;"	m	class:PrinterState	access:private
+PrinterState::getExtruder	PrinterState.cpp	/^PrinterTemp& PrinterState::getExtruder(int extruderId) {$/;"	f	class:PrinterState	signature:(int extruderId)
+PrinterState::getExtruder	PrinterState.cpp	/^const PrinterTemp& PrinterState::getExtruder(int extruderId) const {$/;"	f	class:PrinterState	signature:(int extruderId) const
+PrinterState::getExtruder	PrinterState.h	/^    PrinterTemp& getExtruder(int extruderId);$/;"	p	class:PrinterState	access:private	signature:(int extruderId)
+PrinterState::getExtruder	PrinterState.h	/^    const PrinterTemp& getExtruder(int extruderId) const;$/;"	p	class:PrinterState	access:public	signature:(int extruderId) const
+PrinterState::getLastline	PrinterState.h	/^    uint32_t getLastline() {boost::mutex::scoped_lock l(mutex);return lastline;}$/;"	f	class:PrinterState	access:public	signature:()
+PrinterState::getMoveECmd	PrinterState.cpp	/^std::string PrinterState::getMoveECmd(double de,double f) {$/;"	f	class:PrinterState	signature:(double de,double f)
+PrinterState::getMoveECmd	PrinterState.h	/^    std::string getMoveECmd(double de,double f);$/;"	p	class:PrinterState	access:public	signature:(double de,double f)
+PrinterState::getMoveXCmd	PrinterState.cpp	/^std::string PrinterState::getMoveXCmd(double dx,double f) {$/;"	f	class:PrinterState	signature:(double dx,double f)
+PrinterState::getMoveXCmd	PrinterState.h	/^    std::string getMoveXCmd(double dx,double f);$/;"	p	class:PrinterState	access:public	signature:(double dx,double f)
+PrinterState::getMoveYCmd	PrinterState.cpp	/^std::string PrinterState::getMoveYCmd(double dy,double f) {$/;"	f	class:PrinterState	signature:(double dy,double f)
+PrinterState::getMoveYCmd	PrinterState.h	/^    std::string getMoveYCmd(double dy,double f);$/;"	p	class:PrinterState	access:public	signature:(double dy,double f)
+PrinterState::getMoveZCmd	PrinterState.cpp	/^std::string PrinterState::getMoveZCmd(double dz,double f) {$/;"	f	class:PrinterState	signature:(double dz,double f)
+PrinterState::getMoveZCmd	PrinterState.h	/^    std::string getMoveZCmd(double dz,double f);$/;"	p	class:PrinterState	access:public	signature:(double dz,double f)
+PrinterState::hasXHome	PrinterState.h	/^    bool hasXHome, hasYHome, hasZHome;$/;"	m	class:PrinterState	access:private
+PrinterState::hasYHome	PrinterState.h	/^    bool hasXHome, hasYHome, hasZHome;$/;"	m	class:PrinterState	access:private
+PrinterState::hasZHome	PrinterState.h	/^    bool hasXHome, hasYHome, hasZHome;$/;"	m	class:PrinterState	access:private
+PrinterState::increaseLastline	PrinterState.cpp	/^uint32_t PrinterState::increaseLastline() {$/;"	f	class:PrinterState	signature:()
+PrinterState::increaseLastline	PrinterState.h	/^    uint32_t increaseLastline();$/;"	p	class:PrinterState	access:public	signature:()
+PrinterState::injectUnpause	PrinterState.cpp	/^void PrinterState::injectUnpause() {$/;"	f	class:PrinterState	signature:()
+PrinterState::injectUnpause	PrinterState.h	/^    void injectUnpause();$/;"	p	class:PrinterState	access:public	signature:()
+PrinterState::isG1Move	PrinterState.h	/^    bool isG1Move;$/;"	m	class:PrinterState	access:private
+PrinterState::isMarlin	PrinterState.h	/^    bool isMarlin;$/;"	m	class:PrinterState	access:private
+PrinterState::isRepetier	PrinterState.h	/^    bool isRepetier;$/;"	m	class:PrinterState	access:private
+PrinterState::lastE	PrinterState.h	/^    double lastX,lastY,lastZ,lastE;$/;"	m	class:PrinterState	access:private
+PrinterState::lastX	PrinterState.h	/^    double lastX,lastY,lastZ,lastE;$/;"	m	class:PrinterState	access:private
+PrinterState::lastY	PrinterState.h	/^    double lastX,lastY,lastZ,lastE;$/;"	m	class:PrinterState	access:private
+PrinterState::lastZ	PrinterState.h	/^    double lastX,lastY,lastZ,lastE;$/;"	m	class:PrinterState	access:private
+PrinterState::lastZPrint	PrinterState.h	/^    double lastZPrint;$/;"	m	class:PrinterState	access:private
+PrinterState::lastline	PrinterState.h	/^    uint32_t lastline;$/;"	m	class:PrinterState	access:private
+PrinterState::layer	PrinterState.h	/^    int layer;$/;"	m	class:PrinterState	access:private
+PrinterState::machine	PrinterState.h	/^    std::string machine;$/;"	m	class:PrinterState	access:private
+PrinterState::mutex	PrinterState.h	/^    boost::mutex mutex; \/\/ Used for thread safety$/;"	m	class:PrinterState	access:private
+PrinterState::pauseE	PrinterState.h	/^    double pauseX,pauseY,pauseZ,pauseE,pauseF;$/;"	m	class:PrinterState	access:private
+PrinterState::pauseF	PrinterState.h	/^    double pauseX,pauseY,pauseZ,pauseE,pauseF;$/;"	m	class:PrinterState	access:private
+PrinterState::pauseRelative	PrinterState.h	/^    bool pauseRelative;$/;"	m	class:PrinterState	access:private
+PrinterState::pauseX	PrinterState.h	/^    double pauseX,pauseY,pauseZ,pauseE,pauseF;$/;"	m	class:PrinterState	access:private
+PrinterState::pauseY	PrinterState.h	/^    double pauseX,pauseY,pauseZ,pauseE,pauseF;$/;"	m	class:PrinterState	access:private
+PrinterState::pauseZ	PrinterState.h	/^    double pauseX,pauseY,pauseZ,pauseE,pauseF;$/;"	m	class:PrinterState	access:private
+PrinterState::powerOn	PrinterState.h	/^    bool powerOn;$/;"	m	class:PrinterState	access:private
+PrinterState::printer	PrinterState.h	/^    Printer *printer;$/;"	m	class:PrinterState	access:private
+PrinterState::printerDepth	PrinterState.h	/^    double printerWidth, printerHeight, printerDepth;$/;"	m	class:PrinterState	access:private
+PrinterState::printerHeight	PrinterState.h	/^    double printerWidth, printerHeight, printerDepth;$/;"	m	class:PrinterState	access:private
+PrinterState::printerWidth	PrinterState.h	/^    double printerWidth, printerHeight, printerDepth;$/;"	m	class:PrinterState	access:private
+PrinterState::printingTime	PrinterState.h	/^    double printingTime;$/;"	m	class:PrinterState	access:private
+PrinterState::protocol	PrinterState.h	/^    std::string protocol;$/;"	m	class:PrinterState	access:private
+PrinterState::relative	PrinterState.h	/^    bool relative;$/;"	m	class:PrinterState	access:private
+PrinterState::reset	PrinterState.cpp	/^void PrinterState::reset() {$/;"	f	class:PrinterState	signature:()
+PrinterState::reset	PrinterState.h	/^    void reset();$/;"	p	class:PrinterState	access:public	signature:()
+PrinterState::sdcardMounted	PrinterState.h	/^    bool sdcardMounted;$/;"	m	class:PrinterState	access:private
+PrinterState::setIsathome	PrinterState.cpp	/^void PrinterState::setIsathome() {$/;"	f	class:PrinterState	signature:()
+PrinterState::setIsathome	PrinterState.h	/^    void setIsathome();$/;"	p	class:PrinterState	access:public	signature:()
+PrinterState::speedMultiply	PrinterState.h	/^    int speedMultiply;$/;"	m	class:PrinterState	access:private
+PrinterState::storePause	PrinterState.cpp	/^void PrinterState::storePause() {$/;"	f	class:PrinterState	signature:()
+PrinterState::storePause	PrinterState.h	/^    void storePause();$/;"	p	class:PrinterState	access:public	signature:()
+PrinterState::tempMonitor	PrinterState.h	/^    int tempMonitor;$/;"	m	class:PrinterState	access:private
+PrinterState::uploading	PrinterState.h	/^    bool uploading;$/;"	m	class:PrinterState	access:private
+PrinterState::x	PrinterState.h	/^    double x, y, z, e,emax,f,eprinter;$/;"	m	class:PrinterState	access:private
+PrinterState::xOffset	PrinterState.h	/^    double xOffset, yOffset, zOffset, eOffset;$/;"	m	class:PrinterState	access:private
+PrinterState::y	PrinterState.h	/^    double x, y, z, e,emax,f,eprinter;$/;"	m	class:PrinterState	access:private
+PrinterState::yOffset	PrinterState.h	/^    double xOffset, yOffset, zOffset, eOffset;$/;"	m	class:PrinterState	access:private
+PrinterState::z	PrinterState.h	/^    double x, y, z, e,emax,f,eprinter;$/;"	m	class:PrinterState	access:private
+PrinterState::zOffset	PrinterState.h	/^    double xOffset, yOffset, zOffset, eOffset;$/;"	m	class:PrinterState	access:private
+PrinterState::~PrinterState	PrinterState.cpp	/^PrinterState::~PrinterState() {$/;"	f	class:PrinterState	signature:()
+PrinterState::~PrinterState	PrinterState.h	/^    ~PrinterState();$/;"	p	class:PrinterState	access:public	signature:()
+PrinterTemp	PrinterState.h	/^struct PrinterTemp {$/;"	s
+PrinterTemp::output	PrinterState.h	/^    int8_t output;$/;"	m	struct:PrinterTemp	access:public
+PrinterTemp::tempRead	PrinterState.h	/^    double tempRead;$/;"	m	struct:PrinterTemp	access:public
+PrinterTemp::tempSet	PrinterState.h	/^    double tempSet;$/;"	m	struct:PrinterTemp	access:public
+PrinterTemp::time	PrinterState.h	/^    uint64_t time;$/;"	m	struct:PrinterTemp	access:public
+Printjob	Printjob.cpp	/^Printjob::Printjob(string _file,bool newjob,bool _script) {$/;"	f	class:Printjob	signature:(string _file,bool newjob,bool _script)
+Printjob	Printjob.h	/^    Printjob(std::string _file,bool newjob,bool _script=false);$/;"	p	class:Printjob	access:public	signature:(std::string _file,bool newjob,bool _script=false)
+Printjob	Printjob.h	/^class Printjob {$/;"	c
+Printjob::Printjob	Printjob.cpp	/^Printjob::Printjob(string _file,bool newjob,bool _script) {$/;"	f	class:Printjob	signature:(string _file,bool newjob,bool _script)
+Printjob::Printjob	Printjob.h	/^    Printjob(std::string _file,bool newjob,bool _script=false);$/;"	p	class:Printjob	access:public	signature:(std::string _file,bool newjob,bool _script=false)
+Printjob::PrintjobState	Printjob.h	/^    enum PrintjobState {startUpload,stored,running,finished,doesNotExist};$/;"	g	class:Printjob	access:public
+Printjob::doesNotExist	Printjob.h	/^    enum PrintjobState {startUpload,stored,running,finished,doesNotExist};$/;"	e	enum:Printjob::PrintjobState
+Printjob::file	Printjob.h	/^    std::string file;$/;"	m	class:Printjob	access:private
+Printjob::finished	Printjob.h	/^    enum PrintjobState {startUpload,stored,running,finished,doesNotExist};$/;"	e	enum:Printjob::PrintjobState
+Printjob::getFilename	Printjob.h	/^    inline std::string getFilename() {return file;}$/;"	f	class:Printjob	access:public	signature:()
+Printjob::getId	Printjob.h	/^    inline int getId() {return id;}$/;"	f	class:Printjob	access:public	signature:()
+Printjob::getLength	Printjob.h	/^    inline size_t getLength() {return length;}$/;"	f	class:Printjob	access:public	signature:()
+Printjob::getMaterial	Printjob.h	/^    inline size_t getMaterial() {return material_zg;}$/;"	f	class:Printjob	access:public	signature:()
+Printjob::getName	Printjob.cpp	/^std::string Printjob::getName() {$/;"	f	class:Printjob	signature:()
+Printjob::getName	Printjob.h	/^    std::string getName();$/;"	p	class:Printjob	access:public	signature:()
+Printjob::getState	Printjob.h	/^    inline PrintjobState getState() {return state;}$/;"	f	class:Printjob	access:public	signature:()
+Printjob::getTime	Printjob.h	/^    inline size_t getTime() {return time_zg;}$/;"	f	class:Printjob	access:public	signature:()
+Printjob::id	Printjob.h	/^    int id;$/;"	m	class:Printjob	access:private
+Printjob::incrementLinesSend	Printjob.h	/^    inline void incrementLinesSend() {linesSend++;}$/;"	f	class:Printjob	access:public	signature:()
+Printjob::isNotExistent	Printjob.h	/^    inline bool isNotExistent() {return state==doesNotExist;}$/;"	f	class:Printjob	access:public	signature:()
+Printjob::length	Printjob.h	/^    size_t length; \/\/\/< Length of the print file$/;"	m	class:Printjob	access:private
+Printjob::linesSend	Printjob.h	/^    int linesSend;$/;"	m	class:Printjob	access:private
+Printjob::material_zg	Printjob.h	/^    int material_zg;$/;"	m	class:Printjob	access:private
+Printjob::percentDone	Printjob.h	/^    inline double percentDone() {return 100.0*pos\/(double)length;}$/;"	f	class:Printjob	access:public	signature:()
+Printjob::pos	Printjob.h	/^    long long pos; \/\/\/< Send until this position$/;"	m	class:Printjob	access:private
+Printjob::running	Printjob.h	/^    enum PrintjobState {startUpload,stored,running,finished,doesNotExist};$/;"	e	enum:Printjob::PrintjobState
+Printjob::script	Printjob.h	/^    bool script;$/;"	m	class:Printjob	access:private
+Printjob::setFilename	Printjob.h	/^    inline void setFilename(std::string fname) {file = fname;}$/;"	f	class:Printjob	access:public	signature:(std::string fname)
+Printjob::setLength	Printjob.h	/^    inline void setLength(size_t l) {length = l;}$/;"	f	class:Printjob	access:public	signature:(size_t l)
+Printjob::setMaterial	Printjob.h	/^    inline void setMaterial(int m) {material_zg = m;}$/;"	f	class:Printjob	access:public	signature:(int m)
+Printjob::setPos	Printjob.h	/^    inline void setPos(long long p) {pos = p;}$/;"	f	class:Printjob	access:public	signature:(long long p)
+Printjob::setRunning	Printjob.h	/^    inline void setRunning() {state = running;}$/;"	f	class:Printjob	access:public	signature:()
+Printjob::setStored	Printjob.h	/^    inline void setStored() {state = stored;}$/;"	f	class:Printjob	access:public	signature:()
+Printjob::setTime	Printjob.h	/^    inline void setTime(int t) {time_zg = t;}$/;"	f	class:Printjob	access:public	signature:(int t)
+Printjob::start	Printjob.cpp	/^void Printjob::start() {$/;"	f	class:Printjob	signature:()
+Printjob::start	Printjob.h	/^    void start();$/;"	p	class:Printjob	access:public	signature:()
+Printjob::startUpload	Printjob.h	/^    enum PrintjobState {startUpload,stored,running,finished,doesNotExist};$/;"	e	enum:Printjob::PrintjobState
+Printjob::state	Printjob.h	/^    PrintjobState state;$/;"	m	class:Printjob	access:private
+Printjob::stop	Printjob.cpp	/^void Printjob::stop(Printer *p) {$/;"	f	class:Printjob	signature:(Printer *p)
+Printjob::stop	Printjob.h	/^    void stop(Printer *p);$/;"	p	class:Printjob	access:public	signature:(Printer *p)
+Printjob::stored	Printjob.h	/^    enum PrintjobState {startUpload,stored,running,finished,doesNotExist};$/;"	e	enum:Printjob::PrintjobState
+Printjob::time	Printjob.h	/^    boost::posix_time::ptime time;$/;"	m	class:Printjob	access:private
+Printjob::time_zg	Printjob.h	/^    int time_zg;$/;"	m	class:Printjob	access:private
+PrintjobManager	Printjob.cpp	/^PrintjobManager::PrintjobManager(string dir,Printer *_prt,bool _scripts) {$/;"	f	class:PrintjobManager	signature:(string dir,Printer *_prt,bool _scripts)
+PrintjobManager	Printjob.h	/^    PrintjobManager(std::string dir,Printer *p,bool _scripts=false);$/;"	p	class:PrintjobManager	access:public	signature:(std::string dir,Printer *p,bool _scripts=false)
+PrintjobManager	Printjob.h	/^class PrintjobManager {$/;"	c
+PrintjobManager::PrintjobManager	Printjob.cpp	/^PrintjobManager::PrintjobManager(string dir,Printer *_prt,bool _scripts) {$/;"	f	class:PrintjobManager	signature:(string dir,Printer *_prt,bool _scripts)
+PrintjobManager::PrintjobManager	Printjob.h	/^    PrintjobManager(std::string dir,Printer *p,bool _scripts=false);$/;"	p	class:PrintjobManager	access:public	signature:(std::string dir,Printer *p,bool _scripts=false)
+PrintjobManager::RemovePrintjob	Printjob.cpp	/^void PrintjobManager::RemovePrintjob(PrintjobPtr job) {$/;"	f	class:PrintjobManager	signature:(PrintjobPtr job)
+PrintjobManager::RemovePrintjob	Printjob.h	/^    void RemovePrintjob(PrintjobPtr job);$/;"	p	class:PrintjobManager	access:public	signature:(PrintjobPtr job)
+PrintjobManager::cleanupUnfinsihed	Printjob.cpp	/^void PrintjobManager::cleanupUnfinsihed() {$/;"	f	class:PrintjobManager	signature:()
+PrintjobManager::cleanupUnfinsihed	Printjob.h	/^    void cleanupUnfinsihed();$/;"	p	class:PrintjobManager	access:public	signature:()
+PrintjobManager::createNewPrintjob	Printjob.cpp	/^PrintjobPtr PrintjobManager::createNewPrintjob(std::string name) {$/;"	f	class:PrintjobManager	signature:(std::string name)
+PrintjobManager::createNewPrintjob	Printjob.h	/^    PrintjobPtr createNewPrintjob(std::string name);$/;"	p	class:PrintjobManager	access:public	signature:(std::string name)
+PrintjobManager::decodeIdPart	Printjob.cpp	/^int PrintjobManager::decodeIdPart(std::string file) {$/;"	f	class:PrintjobManager	signature:(std::string file)
+PrintjobManager::decodeIdPart	Printjob.h	/^    static int decodeIdPart(std::string file);$/;"	p	class:PrintjobManager	access:public	signature:(std::string file)
+PrintjobManager::decodeNamePart	Printjob.cpp	/^std::string PrintjobManager::decodeNamePart(std::string file) {$/;"	f	class:PrintjobManager	signature:(std::string file)
+PrintjobManager::decodeNamePart	Printjob.h	/^    static std::string decodeNamePart(std::string file);$/;"	p	class:PrintjobManager	access:public	signature:(std::string file)
+PrintjobManager::directory	Printjob.h	/^    std::string directory;$/;"	m	class:PrintjobManager	access:private
+PrintjobManager::encodeName	Printjob.cpp	/^std::string PrintjobManager::encodeName(int id,std::string name,std::string postfix,bool withDir) {$/;"	f	class:PrintjobManager	signature:(int id,std::string name,std::string postfix,bool withDir)
+PrintjobManager::encodeName	Printjob.h	/^    std::string encodeName(int id,std::string name,std::string postfix,bool withDir);$/;"	p	class:PrintjobManager	access:public	signature:(int id,std::string name,std::string postfix,bool withDir)
+PrintjobManager::files	Printjob.h	/^    std::list<PrintjobPtr> files;$/;"	m	class:PrintjobManager	access:private
+PrintjobManager::filesMutex	Printjob.h	/^    boost::mutex filesMutex;$/;"	m	class:PrintjobManager	access:private
+PrintjobManager::fillSJONObject	Printjob.cpp	/^void PrintjobManager::fillSJONObject(std::string name,json_spirit::Object &o) {$/;"	f	class:PrintjobManager	signature:(std::string name,json_spirit::Object &o)
+PrintjobManager::fillSJONObject	Printjob.h	/^    void fillSJONObject(std::string name,json_spirit::Object &o);$/;"	p	class:PrintjobManager	access:public	signature:(std::string name,json_spirit::Object &o)
+PrintjobManager::findById	Printjob.cpp	/^PrintjobPtr PrintjobManager::findById(int id) {$/;"	f	class:PrintjobManager	signature:(int id)
+PrintjobManager::findById	Printjob.h	/^    PrintjobPtr findById(int id);$/;"	p	class:PrintjobManager	access:public	signature:(int id)
+PrintjobManager::findByIdInternal	Printjob.cpp	/^PrintjobPtr PrintjobManager::findByIdInternal(int id) {$/;"	f	class:PrintjobManager	signature:(int id)
+PrintjobManager::findByIdInternal	Printjob.h	/^    PrintjobPtr findByIdInternal(int id);$/;"	p	class:PrintjobManager	access:private	signature:(int id)
+PrintjobManager::findByName	Printjob.cpp	/^PrintjobPtr PrintjobManager::findByName(string name) {$/;"	f	class:PrintjobManager	signature:(string name)
+PrintjobManager::findByName	Printjob.h	/^    PrintjobPtr findByName(std::string name);$/;"	p	class:PrintjobManager	access:public	signature:(std::string name)
+PrintjobManager::finishPrintjobCreation	Printjob.cpp	/^void PrintjobManager::finishPrintjobCreation(PrintjobPtr job,string namerep,size_t sz)$/;"	f	class:PrintjobManager	signature:(PrintjobPtr job,string namerep,size_t sz)
+PrintjobManager::finishPrintjobCreation	Printjob.h	/^    void finishPrintjobCreation(PrintjobPtr job,std::string namerep,size_t sz);$/;"	p	class:PrintjobManager	access:public	signature:(PrintjobPtr job,std::string namerep,size_t sz)
+PrintjobManager::finishPrintjobCreation2	Printjob.h	/^    void finishPrintjobCreation2(PrintjobPtr job);$/;"	p	class:PrintjobManager	access:public	signature:(PrintjobPtr job)
+PrintjobManager::getJobStatus	Printjob.cpp	/^void PrintjobManager::getJobStatus(json_spirit::Object &obj) {$/;"	f	class:PrintjobManager	signature:(json_spirit::Object &obj)
+PrintjobManager::getJobStatus	Printjob.h	/^    void getJobStatus(json_spirit::Object &obj);$/;"	p	class:PrintjobManager	access:public	signature:(json_spirit::Object &obj)
+PrintjobManager::jobin	Printjob.h	/^    std::ifstream jobin;$/;"	m	class:PrintjobManager	access:private
+PrintjobManager::killJob	Printjob.cpp	/^void PrintjobManager::killJob(int id) {$/;"	f	class:PrintjobManager	signature:(int id)
+PrintjobManager::killJob	Printjob.h	/^    void killJob(int id);$/;"	p	class:PrintjobManager	access:public	signature:(int id)
+PrintjobManager::lastid	Printjob.h	/^    int lastid;$/;"	m	class:PrintjobManager	access:private
+PrintjobManager::manageJobs	Printjob.cpp	/^void PrintjobManager::manageJobs() {$/;"	f	class:PrintjobManager	signature:()
+PrintjobManager::manageJobs	Printjob.h	/^    void manageJobs();$/;"	p	class:PrintjobManager	access:public	signature:()
+PrintjobManager::printer	Printjob.h	/^    Printer *printer;$/;"	m	class:PrintjobManager	access:private
+PrintjobManager::pushCompleteJob	Printjob.cpp	/^void PrintjobManager::pushCompleteJob(std::string name,bool beginning) {$/;"	f	class:PrintjobManager	signature:(std::string name,bool beginning)
+PrintjobManager::pushCompleteJob	Printjob.h	/^    void pushCompleteJob(std::string name,bool beginning = false);$/;"	p	class:PrintjobManager	access:public	signature:(std::string name,bool beginning = false)
+PrintjobManager::pushCompleteJobNoBlock	Printjob.cpp	/^void PrintjobManager::pushCompleteJobNoBlock(std::string name,bool beginning) {$/;"	f	class:PrintjobManager	signature:(std::string name,bool beginning)
+PrintjobManager::pushCompleteJobNoBlock	Printjob.h	/^    void pushCompleteJobNoBlock(std::string name,bool beginning = false);$/;"	p	class:PrintjobManager	access:public	signature:(std::string name,bool beginning = false)
+PrintjobManager::runningJob	Printjob.h	/^    PrintjobPtr runningJob;$/;"	m	class:PrintjobManager	access:private
+PrintjobManager::scripts	Printjob.h	/^    bool scripts;$/;"	m	class:PrintjobManager	access:private
+PrintjobManager::startJob	Printjob.cpp	/^void PrintjobManager::startJob(int id) {$/;"	f	class:PrintjobManager	signature:(int id)
+PrintjobManager::startJob	Printjob.h	/^    void startJob(int id);$/;"	p	class:PrintjobManager	access:public	signature:(int id)
+PrintjobManager::undoCurrentJob	Printjob.cpp	/^void PrintjobManager::undoCurrentJob() {$/;"	f	class:PrintjobManager	signature:()
+PrintjobManager::undoCurrentJob	Printjob.h	/^    void undoCurrentJob();$/;"	p	class:PrintjobManager	access:public	signature:()
+PrintjobPtr	Printjob.h	/^typedef boost::shared_ptr<Printjob> PrintjobPtr;$/;"	t
+PrintjobState	Printjob.h	/^    enum PrintjobState {startUpload,stored,running,finished,doesNotExist};$/;"	g	class:Printjob	access:public
+READ_BUFFER_SIZE	PrinterSerial.h	33;"	d
+REPETIER_SERVER_VERSION	global_config.h	22;"	d
+RLog	RLog.cpp	/^RLog::RLog() {$/;"	f	class:RLog	signature:()
+RLog	RLog.h	/^    RLog();$/;"	p	class:RLog	access:public	signature:()
+RLog	RLog.h	/^class RLog {$/;"	c
+RLog::RLog	RLog.cpp	/^RLog::RLog() {$/;"	f	class:RLog	signature:()
+RLog::RLog	RLog.h	/^    RLog();$/;"	p	class:RLog	access:public	signature:()
+RLog::log	RLog.cpp	/^void RLog::log(const std::string &line,bool err) {$/;"	f	class:RLog	signature:(const std::string &line,bool err)
+RLog::log	RLog.cpp	/^void RLog::log(const std::string &line,const std::string& val,bool err) {$/;"	f	class:RLog	signature:(const std::string &line,const std::string& val,bool err)
+RLog::log	RLog.cpp	/^void RLog::log(const std::string &line,double val,bool err) {$/;"	f	class:RLog	signature:(const std::string &line,double val,bool err)
+RLog::log	RLog.cpp	/^void RLog::log(const std::string &line,int val,bool err) {$/;"	f	class:RLog	signature:(const std::string &line,int val,bool err)
+RLog::log	RLog.h	/^    static void log(const std::string &line,bool err=false);$/;"	p	class:RLog	access:public	signature:(const std::string &line,bool err=false)
+RLog::log	RLog.h	/^    static void log(const std::string &line,const std::string& val,bool err=false);$/;"	p	class:RLog	access:public	signature:(const std::string &line,const std::string& val,bool err=false)
+RLog::log	RLog.h	/^    static void log(const std::string &line,double val,bool err=false);$/;"	p	class:RLog	access:public	signature:(const std::string &line,double val,bool err=false)
+RLog::log	RLog.h	/^    static void log(const std::string &line,int val,bool err=false);$/;"	p	class:RLog	access:public	signature:(const std::string &line,int val,bool err=false)
+RLog::~RLog	RLog.cpp	/^RLog::~RLog() {$/;"	f	class:RLog	signature:()
+RLog::~RLog	RLog.h	/^    ~RLog();$/;"	p	class:RLog	access:public	signature:()
+RemovePrintjob	Printjob.cpp	/^void PrintjobManager::RemovePrintjob(PrintjobPtr job) {$/;"	f	class:PrintjobManager	signature:(PrintjobPtr job)
+RemovePrintjob	Printjob.h	/^    void RemovePrintjob(PrintjobPtr job);$/;"	p	class:PrintjobManager	access:public	signature:(PrintjobPtr job)
+RepetierMessage	global_config.h	/^class RepetierMessage {$/;"	c
+RepetierMessage::finishLink	global_config.h	/^    std::string finishLink; \/\/\/< Link to remove the message$/;"	m	class:RepetierMessage	access:public
+RepetierMessage::mesgId	global_config.h	/^    int mesgId;  \/\/\/< Message id$/;"	m	class:RepetierMessage	access:public
+RepetierMessage::message	global_config.h	/^    std::string message; \/\/\/< The message itself.$/;"	m	class:RepetierMessage	access:public
+RepetierMsgPtr	global_config.h	/^typedef shared_ptr<RepetierMessage> RepetierMsgPtr;$/;"	t
+STR	WebserverAPI.cpp	52;"	d	file:
+STRX	WebserverAPI.cpp	51;"	d	file:
+TIME_ESTIMATE_H	timeEstimate.h	2;"	d
+TimeEstimateCalculator	timeEstimate.cpp	/^TimeEstimateCalculator::TimeEstimateCalculator(Printjob *j) {$/;"	f	class:TimeEstimateCalculator	signature:(Printjob *j)
+TimeEstimateCalculator	timeEstimate.h	/^	TimeEstimateCalculator(Printjob *j);$/;"	p	class:TimeEstimateCalculator	access:public	signature:(Printjob *j)
+TimeEstimateCalculator	timeEstimate.h	/^class TimeEstimateCalculator$/;"	c
+TimeEstimateCalculator::GCodePlan	timeEstimate.cpp	/^void TimeEstimateCalculator::GCodePlan()$/;"	f	class:TimeEstimateCalculator	signature:()
+TimeEstimateCalculator::GCodePlan	timeEstimate.h	/^	void GCodePlan();$/;"	p	class:TimeEstimateCalculator	access:public	signature:()
+TimeEstimateCalculator::TimeEstimateCalculator	timeEstimate.cpp	/^TimeEstimateCalculator::TimeEstimateCalculator(Printjob *j) {$/;"	f	class:TimeEstimateCalculator	signature:(Printjob *j)
+TimeEstimateCalculator::TimeEstimateCalculator	timeEstimate.h	/^	TimeEstimateCalculator(Printjob *j);$/;"	p	class:TimeEstimateCalculator	access:public	signature:(Printjob *j)
+TimeEstimateCalculator::analyzeGCode	timeEstimate.cpp	/^void TimeEstimateCalculator::analyzeGCode(GCode &code)$/;"	f	class:TimeEstimateCalculator	signature:(GCode &code)
+TimeEstimateCalculator::analyzeGCode	timeEstimate.h	/^	void analyzeGCode(GCode &code);$/;"	p	class:TimeEstimateCalculator	access:public	signature:(GCode &code)
+TimeEstimateCalculator::e	timeEstimate.h	/^	float x , y , z , e , f ;  \/\/当前获取的GCODE参数$/;"	m	class:TimeEstimateCalculator	access:private
+TimeEstimateCalculator::eChanged	timeEstimate.h	/^    bool eChanged = false;$/;"	m	class:TimeEstimateCalculator	access:private
+TimeEstimateCalculator::eRelative	timeEstimate.h	/^    bool eRelative = false;$/;"	m	class:TimeEstimateCalculator	access:private
+TimeEstimateCalculator::estimateTotalPrintTime	timeEstimate.cpp	/^double TimeEstimateCalculator::estimateTotalPrintTime(PrintjobPtr job) $/;"	f	class:TimeEstimateCalculator	signature:(PrintjobPtr job)
+TimeEstimateCalculator::estimateTotalPrintTime	timeEstimate.h	/^	double estimateTotalPrintTime(\/*Printer *printer ,*\/ PrintjobPtr job);$/;"	p	class:TimeEstimateCalculator	access:public	signature:( PrintjobPtr job)
+TimeEstimateCalculator::f	timeEstimate.h	/^	float x , y , z , e , f ;  \/\/当前获取的GCODE参数$/;"	m	class:TimeEstimateCalculator	access:private
+TimeEstimateCalculator::le	timeEstimate.h	/^	float lx , ly , lz , le , lf ;\/\/上一步存储的GCODE参数$/;"	m	class:TimeEstimateCalculator	access:private
+TimeEstimateCalculator::lf	timeEstimate.h	/^	float lx , ly , lz , le , lf ;\/\/上一步存储的GCODE参数$/;"	m	class:TimeEstimateCalculator	access:private
+TimeEstimateCalculator::lx	timeEstimate.h	/^	float lx , ly , lz , le , lf ;\/\/上一步存储的GCODE参数$/;"	m	class:TimeEstimateCalculator	access:private
+TimeEstimateCalculator::ly	timeEstimate.h	/^	float lx , ly , lz , le , lf ;\/\/上一步存储的GCODE参数$/;"	m	class:TimeEstimateCalculator	access:private
+TimeEstimateCalculator::lz	timeEstimate.h	/^	float lx , ly , lz , le , lf ;\/\/上一步存储的GCODE参数$/;"	m	class:TimeEstimateCalculator	access:private
+TimeEstimateCalculator::moveLength	timeEstimate.h	/^	double moveLength; \/\/同一个速度下轨迹长度$/;"	m	class:TimeEstimateCalculator	access:private
+TimeEstimateCalculator::printjob	timeEstimate.h	/^	Printjob * printjob;$/;"	m	class:TimeEstimateCalculator	access:private
+TimeEstimateCalculator::relative	timeEstimate.h	/^    bool relative = false;$/;"	m	class:TimeEstimateCalculator	access:private
+TimeEstimateCalculator::setPosition	timeEstimate.h	/^	void setPosition() {lx=x;ly=y;lz=z;le=e;lf=f;}$/;"	f	class:TimeEstimateCalculator	access:public	signature:()
+TimeEstimateCalculator::sumTime	timeEstimate.h	/^	double sumTime; \/\/叠加的总时间$/;"	m	class:TimeEstimateCalculator	access:private
+TimeEstimateCalculator::x	timeEstimate.h	/^	float x , y , z , e , f ;  \/\/当前获取的GCODE参数$/;"	m	class:TimeEstimateCalculator	access:private
+TimeEstimateCalculator::y	timeEstimate.h	/^	float x , y , z , e , f ;  \/\/当前获取的GCODE参数$/;"	m	class:TimeEstimateCalculator	access:private
+TimeEstimateCalculator::z	timeEstimate.h	/^	float x , y , z , e , f ;  \/\/当前获取的GCODE参数$/;"	m	class:TimeEstimateCalculator	access:private
+TimeEstimateCalculator::~TimeEstimateCalculator	timeEstimate.cpp	/^TimeEstimateCalculator::~TimeEstimateCalculator() {$/;"	f	class:TimeEstimateCalculator	signature:()
+TimeEstimateCalculator::~TimeEstimateCalculator	timeEstimate.h	/^    ~TimeEstimateCalculator();$/;"	p	class:TimeEstimateCalculator	access:public	signature:()
+TimeEstimateCalculatorPtr	timeEstimate.h	/^typedef boost::shared_ptr<TimeEstimateCalculator> TimeEstimateCalculatorPtr;$/;"	t
+TranslateFile	WebserverAPI.cpp	/^    void TranslateFile(const std::string &filename,const std::string &lang,std::string& result) {$/;"	f	namespace:repetier	signature:(const std::string &filename,const std::string &lang,std::string& result)
+TranslateFile	WebserverAPI.h	/^    extern void TranslateFile(const std::string &filename,const std::string &lang,std::string& result);$/;"	p	namespace:repetier	signature:(const std::string &filename,const std::string &lang,std::string& result)
+_CRT_SECURE_NO_DEPRECATE	GCode.cpp	19;"	d	file:
+_CRT_SECURE_NO_DEPRECATE	PrinterSerial.cpp	19;"	d	file:
+_CRT_SECURE_NO_DEPRECATE	PrinterState.cpp	19;"	d	file:
+_CRT_SECURE_NO_DEPRECATE	Printjob.cpp	20;"	d	file:
+_CRT_SECURE_NO_DEPRECATE	printer.cpp	19;"	d	file:
+_CRT_SECURE_NO_WARNINGS	GCode.cpp	18;"	d	file:
+_CRT_SECURE_NO_WARNINGS	PrinterSerial.cpp	18;"	d	file:
+_CRT_SECURE_NO_WARNINGS	PrinterState.cpp	18;"	d	file:
+_CRT_SECURE_NO_WARNINGS	PrinterState.cpp	29;"	d	file:
+_CRT_SECURE_NO_WARNINGS	Printjob.cpp	19;"	d	file:
+_CRT_SECURE_NO_WARNINGS	Printjob.cpp	34;"	d	file:
+_CRT_SECURE_NO_WARNINGS	printer.cpp	18;"	d	file:
+_SCL_SECURE_NO_DEPRECATE	GCode.cpp	20;"	d	file:
+_SCL_SECURE_NO_DEPRECATE	PrinterSerial.cpp	20;"	d	file:
+_SCL_SECURE_NO_DEPRECATE	PrinterState.cpp	20;"	d	file:
+_SCL_SECURE_NO_DEPRECATE	Printjob.cpp	21;"	d	file:
+_SCL_SECURE_NO_DEPRECATE	printer.cpp	20;"	d	file:
+__Repetier_Server__GCode__	GCode.h	20;"	d
+__Repetier_Server__PrinterSerial__	PrinterSerial.h	20;"	d
+__Repetier_Server__PrinterState__	PrinterState.h	20;"	d
+__Repetier_Server__Printjob__	Printjob.h	20;"	d
+__Repetier_Server__RLog__	RLog.h	10;"	d
+__Repetier_Server__WebserverAPI__	WebserverAPI.h	20;"	d
+__Repetier_Server__global_config__	global_config.h	20;"	d
+__Repetier_Server__printer__	printer.h	20;"	d
+__func__	WebserverAPI.cpp	53;"	d	file:
+acceleration	timeEstimate.cpp	/^const double acceleration = 3000;$/;"	v
+active	printer.h	/^    bool active;$/;"	m	class:Printer	access:public
+activeExtruder	PrinterState.h	/^    int activeExtruder;$/;"	m	class:PrinterState	access:private
+addCode	GCode.cpp	/^void GCode::addCode(Printer *printer,char c,const string& val) {$/;"	f	class:GCode	signature:(Printer *printer,char c,const string& val)
+addCode	GCode.h	/^    void addCode(Printer *printer,char c,const std::string & val);$/;"	p	class:GCode	access:private	signature:(Printer *printer,char c,const std::string & val)
+addResponse	printer.cpp	/^void Printer::addResponse(const std::string& msg,uint8_t rtype) {$/;"	f	class:Printer	signature:(const std::string& msg,uint8_t rtype)
+addResponse	printer.h	/^    void addResponse(const std::string& msg,uint8_t rtype);$/;"	p	class:Printer	access:public	signature:(const std::string& msg,uint8_t rtype)
+analyseResponse	PrinterState.cpp	/^void PrinterState::analyseResponse(const string &res,uint8_t &rtype) {$/;"	f	class:PrinterState	signature:(const string &res,uint8_t &rtype)
+analyseResponse	PrinterState.h	/^    void analyseResponse(const std::string &res,uint8_t &rtype);$/;"	p	class:PrinterState	access:public	signature:(const std::string &res,uint8_t &rtype)
+analyseResponse	printer.cpp	/^void Printer::analyseResponse(string &res) {$/;"	f	class:Printer	signature:(string &res)
+analyseResponse	printer.h	/^    void analyseResponse(std::string &resp);$/;"	p	class:Printer	access:public	signature:(std::string &resp)
+analyze	PrinterState.cpp	/^void PrinterState::analyze(GCode &code)$/;"	f	class:PrinterState	signature:(GCode &code)
+analyze	PrinterState.h	/^    void analyze(GCode &code);$/;"	p	class:PrinterState	access:public	signature:(GCode &code)
+analyzeGCode	timeEstimate.cpp	/^void TimeEstimateCalculator::analyzeGCode(GCode &code)$/;"	f	class:TimeEstimateCalculator	signature:(GCode &code)
+analyzeGCode	timeEstimate.h	/^	void analyzeGCode(GCode &code);$/;"	p	class:TimeEstimateCalculator	access:public	signature:(GCode &code)
+backgroundThread	PrinterSerial.h	/^    boost::thread backgroundThread; \/\/\/< Thread that runs read\/write operations$/;"	m	class:PrinterSerial	access:private
+backlogSize	global_config.h	/^    int backlogSize;$/;"	m	class:GlobalConfig	access:private
+baudrate	PrinterSerial.h	/^    boost::asio::serial_port_base::baud_rate baudrate;$/;"	m	class:PrinterSerial	access:private
+baudrate	printer.h	/^    int32_t baudrate;$/;"	m	class:Printer	access:public
+bed	PrinterState.h	/^    PrinterTemp bed;$/;"	m	class:PrinterState	access:private
+binaryProtocol	printer.h	/^    int binaryProtocol;$/;"	m	class:Printer	access:public
+binaryVersion	PrinterState.h	/^    int binaryVersion;$/;"	m	class:PrinterState	access:private
+bytesSend	printer.h	/^    std::size_t bytesSend;$/;"	m	class:Printer	access:private
+cacheSize	printer.h	/^    int32_t cacheSize;$/;"	m	class:Printer	access:public
+callback	PrinterSerial.h	/^    boost::function<void (const char*, size_t)> callback;$/;"	m	class:PrinterSerial	access:private
+characterSize	PrinterSerial.h	/^    boost::asio::serial_port_base::character_size characterSize;$/;"	m	class:PrinterSerial	access:private
+cleanupUnfinsihed	Printjob.cpp	/^void PrintjobManager::cleanupUnfinsihed() {$/;"	f	class:PrintjobManager	signature:()
+cleanupUnfinsihed	Printjob.h	/^    void cleanupUnfinsihed();$/;"	p	class:PrintjobManager	access:public	signature:()
+close	PrinterSerial.cpp	/^void PrinterSerial::close() {$/;"	f	class:PrinterSerial	signature:()
+close	PrinterSerial.h	/^    void close();$/;"	p	class:PrinterSerial	access:public	signature:()
+close	printer.cpp	/^void Printer::close() {$/;"	f	class:Printer	signature:()
+close	printer.h	/^    void close();$/;"	p	class:Printer	access:private	signature:()
+command	printer.h	/^    std::string command;$/;"	m	class:PrinterHistoryLine	access:public
+comment	GCode.h	/^    bool comment;$/;"	m	class:GCode	access:public
+config	global_config.h	/^    libconfig::Config config;$/;"	m	class:GlobalConfig	access:private
+config	printer.h	/^    libconfig::Config config;$/;"	m	class:Printer	access:private
+connectionClosed	printer.cpp	/^void Printer::connectionClosed() {$/;"	f	class:Printer	signature:()
+connectionClosed	printer.h	/^    void connectionClosed();$/;"	p	class:Printer	access:public	signature:()
+createMessage	global_config.cpp	/^void GlobalConfig::createMessage(std::string &msg,std::string &link) {$/;"	f	class:GlobalConfig	signature:(std::string &msg,std::string &link)
+createMessage	global_config.h	/^    void createMessage(std::string &msg,std::string &link);$/;"	p	class:GlobalConfig	access:public	signature:(std::string &msg,std::string &link)
+createNewPrintjob	Printjob.cpp	/^PrintjobPtr PrintjobManager::createNewPrintjob(std::string name) {$/;"	f	class:PrintjobManager	signature:(std::string name)
+createNewPrintjob	Printjob.h	/^    PrintjobPtr createNewPrintjob(std::string name);$/;"	p	class:PrintjobManager	access:public	signature:(std::string name)
+cstr_to_string	printer.cpp	/^ string cstr_to_string( char *p_str)$/;"	f	signature:( char *p_str)
+daemon	global_config.h	/^    bool daemon;$/;"	m	class:GlobalConfig	access:public
+data	GCode.h	/^    uint8_t *data;$/;"	m	class:GCodeDataPacket	access:public
+debugLevel	PrinterState.h	/^    int debugLevel;$/;"	m	class:PrinterState	access:private
+debugTermios	PrinterSerial.cpp	/^void PrinterSerialPort::debugTermios() {$/;"	f	class:PrinterSerialPort	signature:()
+debugTermios	PrinterSerial.h	/^    void debugTermios();$/;"	p	class:PrinterSerialPort	access:public	signature:()
+decodeIdPart	Printjob.cpp	/^int PrintjobManager::decodeIdPart(std::string file) {$/;"	f	class:PrintjobManager	signature:(std::string file)
+decodeIdPart	Printjob.h	/^    static int decodeIdPart(std::string file);$/;"	p	class:PrintjobManager	access:public	signature:(std::string file)
+decodeNamePart	Printjob.cpp	/^std::string PrintjobManager::decodeNamePart(std::string file) {$/;"	f	class:PrintjobManager	signature:(std::string file)
+decodeNamePart	Printjob.h	/^    static std::string decodeNamePart(std::string file);$/;"	p	class:PrintjobManager	access:public	signature:(std::string file)
+decreaseLastline	PrinterState.cpp	/^uint32_t PrinterState::decreaseLastline() {$/;"	f	class:PrinterState	signature:()
+decreaseLastline	PrinterState.h	/^    uint32_t decreaseLastline();$/;"	p	class:PrinterState	access:public	signature:()
+defaultLanguage	global_config.h	/^    std::string defaultLanguage; \/\/\/< Default language if no language is detected$/;"	m	class:GlobalConfig	access:private
+device	printer.h	/^    std::string device;$/;"	m	class:Printer	access:public
+directory	Printjob.h	/^    std::string directory;$/;"	m	class:PrintjobManager	access:private
+doClose	PrinterSerial.cpp	/^void PrinterSerial::doClose()$/;"	f	class:PrinterSerial	signature:()
+doClose	PrinterSerial.h	/^    void doClose();$/;"	p	class:PrinterSerial	access:private	signature:()
+doRead	PrinterSerial.cpp	/^void PrinterSerial::doRead() {$/;"	f	class:PrinterSerial	signature:()
+doRead	PrinterSerial.h	/^    void doRead();$/;"	p	class:PrinterSerial	access:private	signature:()
+doWrite	PrinterSerial.cpp	/^void PrinterSerial::doWrite()$/;"	f	class:PrinterSerial	signature:()
+doWrite	PrinterSerial.h	/^    void doWrite();$/;"	p	class:PrinterSerial	access:private	signature:()
+doesLanguageExist	WebserverAPI.cpp	/^    bool doesLanguageExist(string lang) {$/;"	f	namespace:repetier	signature:(string lang)
+doesLanguageExist	WebserverAPI.h	/^    extern bool doesLanguageExist(std::string lang);$/;"	p	namespace:repetier	signature:(std::string lang)
+doesNotExist	Printjob.h	/^    enum PrintjobState {startUpload,stored,running,finished,doesNotExist};$/;"	e	enum:Printjob::PrintjobState
+drawing	PrinterState.h	/^    bool drawing;$/;"	m	class:PrinterState	access:private
+e	GCode.h	/^    float x, y, z, e, f,ii,j,r;$/;"	m	class:GCode	access:public
+e	PrinterState.h	/^    double x, y, z, e,emax,f,eprinter;$/;"	m	class:PrinterState	access:private
+e	timeEstimate.h	/^	float x , y , z , e , f ;  \/\/当前获取的GCODE参数$/;"	m	class:TimeEstimateCalculator	access:private
+eChanged	PrinterState.h	/^    bool eChanged;$/;"	m	class:PrinterState	access:private
+eChanged	timeEstimate.h	/^    bool eChanged = false;$/;"	m	class:TimeEstimateCalculator	access:private
+eOffset	PrinterState.h	/^    double xOffset, yOffset, zOffset, eOffset;$/;"	m	class:PrinterState	access:private
+eRelative	PrinterState.h	/^    bool eRelative;$/;"	m	class:PrinterState	access:private
+eRelative	timeEstimate.h	/^    bool eRelative = false;$/;"	m	class:TimeEstimateCalculator	access:private
+emax	PrinterState.h	/^    double x, y, z, e,emax,f,eprinter;$/;"	m	class:PrinterState	access:private
+encodeName	Printjob.cpp	/^std::string PrintjobManager::encodeName(int id,std::string name,std::string postfix,bool withDir) {$/;"	f	class:PrintjobManager	signature:(int id,std::string name,std::string postfix,bool withDir)
+encodeName	Printjob.h	/^    std::string encodeName(int id,std::string name,std::string postfix,bool withDir);$/;"	p	class:PrintjobManager	access:public	signature:(int id,std::string name,std::string postfix,bool withDir)
+eprinter	PrinterState.h	/^    double x, y, z, e,emax,f,eprinter;$/;"	m	class:PrinterState	access:private
+error	PrinterSerial.h	/^    bool error; \/\/\/< Error flag$/;"	m	class:PrinterSerial	access:private
+errorMutex	PrinterSerial.h	/^    mutable boost::mutex errorMutex; \/\/\/< Mutex for access to error$/;"	m	class:PrinterSerial	access:private
+errorStatus	PrinterSerial.cpp	/^bool PrinterSerial::errorStatus() const$/;"	f	class:PrinterSerial	signature:() const
+errorStatus	PrinterSerial.h	/^    bool errorStatus() const;$/;"	p	class:PrinterSerial	access:public	signature:() const
+errorsReceived	printer.h	/^    int errorsReceived;$/;"	m	class:Printer	access:private
+estimateTotalPrintTime	timeEstimate.cpp	/^double TimeEstimateCalculator::estimateTotalPrintTime(PrintjobPtr job) $/;"	f	class:TimeEstimateCalculator	signature:(PrintjobPtr job)
+estimateTotalPrintTime	timeEstimate.h	/^	double estimateTotalPrintTime(\/*Printer *printer ,*\/ PrintjobPtr job);$/;"	p	class:TimeEstimateCalculator	access:public	signature:( PrintjobPtr job)
+extract	PrinterState.cpp	/^bool PrinterState::extract(const string& source,const string& ident,string &result)$/;"	f	class:PrinterState	signature:(const string& source,const string& ident,string &result)
+extract	PrinterState.h	/^    bool extract(const std::string& source,const std::string& ident,std::string &result);$/;"	p	class:PrinterState	access:public	signature:(const std::string& source,const std::string& ident,std::string &result)
+extract	printer.cpp	/^bool Printer::extract(const string& source,const string& ident,string &result)$/;"	f	class:Printer	signature:(const string& source,const string& ident,string &result)
+extract	printer.h	/^    bool extract(const std::string& source,const std::string& ident,std::string &result);$/;"	p	class:Printer	access:private	signature:(const std::string& source,const std::string& ident,std::string &result)
+extruder	PrinterState.h	/^    PrinterTemp* extruder;$/;"	m	class:PrinterState	access:private
+extruderCount	printer.h	/^    int32_t extruderCount;$/;"	m	class:Printer	access:public
+extruderCountSend	PrinterState.h	/^    int extruderCountSend;$/;"	m	class:PrinterState	access:private
+f	GCode.h	/^    float x, y, z, e, f,ii,j,r;$/;"	m	class:GCode	access:public
+f	PrinterState.h	/^    double x, y, z, e,emax,f,eprinter;$/;"	m	class:PrinterState	access:private
+f	timeEstimate.h	/^	float x , y , z , e , f ;  \/\/当前获取的GCODE参数$/;"	m	class:TimeEstimateCalculator	access:private
+fanOn	PrinterState.h	/^    bool fanOn;$/;"	m	class:PrinterState	access:private
+fanVoltage	PrinterState.h	/^    int fanVoltage;$/;"	m	class:PrinterState	access:private
+fdopen	WebserverAPI.cpp	75;"	d	file:
+fields	GCode.h	/^    uint16_t fields,fields2;$/;"	m	class:GCode	access:public
+fields2	GCode.h	/^    uint16_t fields,fields2;$/;"	m	class:GCode	access:public
+file	Printjob.h	/^    std::string file;$/;"	m	class:Printjob	access:private
+files	Printjob.h	/^    std::list<PrintjobPtr> files;$/;"	m	class:PrintjobManager	access:private
+filesMutex	Printjob.h	/^    boost::mutex filesMutex;$/;"	m	class:PrintjobManager	access:private
+filesMutex	timeEstimate.cpp	/^boost::mutex filesMutex;$/;"	v
+fillJSONMessages	global_config.cpp	/^void GlobalConfig::fillJSONMessages(json_spirit::Array &arr) {$/;"	f	class:GlobalConfig	signature:(json_spirit::Array &arr)
+fillJSONMessages	global_config.h	/^    void fillJSONMessages(json_spirit::Array &obj);$/;"	p	class:GlobalConfig	access:public	signature:(json_spirit::Array &obj)
+fillJSONObject	PrinterState.cpp	/^void PrinterState::fillJSONObject(json_spirit::Object &obj) {$/;"	f	class:PrinterState	signature:(json_spirit::Object &obj)
+fillJSONObject	PrinterState.h	/^    void fillJSONObject(json_spirit::Object &obj);$/;"	p	class:PrinterState	access:public	signature:(json_spirit::Object &obj)
+fillJSONObject	printer.cpp	/^void Printer::fillJSONObject(json_spirit::Object &obj) {$/;"	f	class:Printer	signature:(json_spirit::Object &obj)
+fillJSONObject	printer.h	/^    void fillJSONObject(json_spirit::Object &obj);$/;"	p	class:Printer	access:public	signature:(json_spirit::Object &obj)
+fillSJONObject	Printjob.cpp	/^void PrintjobManager::fillSJONObject(std::string name,json_spirit::Object &o) {$/;"	f	class:PrintjobManager	signature:(std::string name,json_spirit::Object &o)
+fillSJONObject	Printjob.h	/^    void fillSJONObject(std::string name,json_spirit::Object &o);$/;"	p	class:PrintjobManager	access:public	signature:(std::string name,json_spirit::Object &o)
+findById	Printjob.cpp	/^PrintjobPtr PrintjobManager::findById(int id) {$/;"	f	class:PrintjobManager	signature:(int id)
+findById	Printjob.h	/^    PrintjobPtr findById(int id);$/;"	p	class:PrintjobManager	access:public	signature:(int id)
+findByIdInternal	Printjob.cpp	/^PrintjobPtr PrintjobManager::findByIdInternal(int id) {$/;"	f	class:PrintjobManager	signature:(int id)
+findByIdInternal	Printjob.h	/^    PrintjobPtr findByIdInternal(int id);$/;"	p	class:PrintjobManager	access:private	signature:(int id)
+findByName	Printjob.cpp	/^PrintjobPtr PrintjobManager::findByName(string name) {$/;"	f	class:PrintjobManager	signature:(string name)
+findByName	Printjob.h	/^    PrintjobPtr findByName(std::string name);$/;"	p	class:PrintjobManager	access:public	signature:(std::string name)
+findPrinterSlug	global_config.cpp	/^Printer *GlobalConfig::findPrinterSlug(const std::string& slug) {$/;"	f	class:GlobalConfig	signature:(const std::string& slug)
+findPrinterSlug	global_config.h	/^    Printer *findPrinterSlug(const std::string& slug);$/;"	p	class:GlobalConfig	access:public	signature:(const std::string& slug)
+findVariable	WebserverAPI.cpp	/^    Value* findVariable(list<Value> &vars,const string& name) {$/;"	f	namespace:repetier	signature:(list<Value> &vars,const string& name)
+finishLink	global_config.h	/^    std::string finishLink; \/\/\/< Link to remove the message$/;"	m	class:RepetierMessage	access:public
+finishPrintjobCreation	Printjob.cpp	/^void PrintjobManager::finishPrintjobCreation(PrintjobPtr job,string namerep,size_t sz)$/;"	f	class:PrintjobManager	signature:(PrintjobPtr job,string namerep,size_t sz)
+finishPrintjobCreation	Printjob.h	/^    void finishPrintjobCreation(PrintjobPtr job,std::string namerep,size_t sz);$/;"	p	class:PrintjobManager	access:public	signature:(PrintjobPtr job,std::string namerep,size_t sz)
+finishPrintjobCreation2	Printjob.h	/^    void finishPrintjobCreation2(PrintjobPtr job);$/;"	p	class:PrintjobManager	access:public	signature:(PrintjobPtr job)
+finished	Printjob.h	/^    enum PrintjobState {startUpload,stored,running,finished,doesNotExist};$/;"	e	enum:Printjob::PrintjobState
+firmware	PrinterState.h	/^    std::string firmware;$/;"	m	class:PrinterState	access:private
+firmwareURL	PrinterState.h	/^    std::string firmwareURL;$/;"	m	class:PrinterState	access:private
+flowControl	PrinterSerial.h	/^    boost::asio::serial_port_base::flow_control flowControl;$/;"	m	class:PrinterSerial	access:private
+flowMultiply	PrinterState.h	/^    int flowMultiply;$/;"	m	class:PrinterState	access:private
+forceASCII	GCode.h	/^    bool forceASCII;$/;"	m	class:GCode	access:public
+fseeko	WebserverAPI.cpp	74;"	d	file:
+g	GCode.h	/^    uint16_t g, m;$/;"	m	class:GCode	access:public
+garbageCleared	printer.h	/^    bool garbageCleared;$/;"	m	class:Printer	access:private
+getActive	printer.cpp	/^bool Printer::getActive() {$/;"	f	class:Printer	signature:()
+getActive	printer.h	/^    bool getActive();$/;"	p	class:Printer	access:public	signature:()
+getAscii	GCode.cpp	/^GCodeDataPacketPtr GCode::getAscii(bool inclLine,bool inclChecksum)$/;"	f	class:GCode	signature:(bool inclLine,bool inclChecksum)
+getAscii	GCode.h	/^    GCodeDataPacketPtr getAscii(bool inclLine,bool inclChecksum);$/;"	p	class:GCode	access:public	signature:(bool inclLine,bool inclChecksum)
+getBacklogSize	global_config.h	/^    inline const int getBacklogSize() {return backlogSize;}$/;"	f	class:GlobalConfig	access:public	signature:()
+getBinary	GCode.cpp	/^GCodeDataPacketPtr GCode::getBinary()$/;"	f	class:GCode	signature:()
+getBinary	GCode.h	/^    GCodeDataPacketPtr getBinary();$/;"	p	class:GCode	access:public	signature:()
+getDefaultLanguage	global_config.h	/^    inline const std::string& getDefaultLanguage() {return defaultLanguage;}$/;"	f	class:GlobalConfig	access:public	signature:()
+getE	GCode.h	/^    inline float getE() {return e;}$/;"	f	class:GCode	access:public	signature:()
+getExtruder	PrinterState.cpp	/^PrinterTemp& PrinterState::getExtruder(int extruderId) {$/;"	f	class:PrinterState	signature:(int extruderId)
+getExtruder	PrinterState.cpp	/^const PrinterTemp& PrinterState::getExtruder(int extruderId) const {$/;"	f	class:PrinterState	signature:(int extruderId) const
+getExtruder	PrinterState.h	/^    PrinterTemp& getExtruder(int extruderId);$/;"	p	class:PrinterState	access:private	signature:(int extruderId)
+getExtruder	PrinterState.h	/^    const PrinterTemp& getExtruder(int extruderId) const;$/;"	p	class:PrinterState	access:public	signature:(int extruderId) const
+getF	GCode.h	/^    inline float getF() {return f;}$/;"	f	class:GCode	access:public	signature:()
+getFilename	Printjob.h	/^    inline std::string getFilename() {return file;}$/;"	f	class:Printjob	access:public	signature:()
+getG	GCode.h	/^    inline uint16_t getG() {return g;}$/;"	f	class:GCode	access:public	signature:()
+getId	Printjob.h	/^    inline int getId() {return id;}$/;"	f	class:Printjob	access:public	signature:()
+getJobManager	printer.h	/^    inline PrintjobManager *getJobManager() {return jobManager;}$/;"	f	class:Printer	access:public	signature:()
+getJobStatus	Printjob.cpp	/^void PrintjobManager::getJobStatus(json_spirit::Object &obj) {$/;"	f	class:PrintjobManager	signature:(json_spirit::Object &obj)
+getJobStatus	Printjob.h	/^    void getJobStatus(json_spirit::Object &obj);$/;"	p	class:PrintjobManager	access:public	signature:(json_spirit::Object &obj)
+getJobStatus	printer.cpp	/^void Printer::getJobStatus(json_spirit::Object &obj) {$/;"	f	class:Printer	signature:(json_spirit::Object &obj)
+getJobStatus	printer.h	/^    void getJobStatus(json_spirit::Object &obj);$/;"	p	class:Printer	access:public	signature:(json_spirit::Object &obj)
+getLanguageDir	global_config.h	/^    inline const std::string& getLanguageDir() {return languageDir;}$/;"	f	class:GlobalConfig	access:public	signature:()
+getLastline	PrinterState.h	/^    uint32_t getLastline() {boost::mutex::scoped_lock l(mutex);return lastline;}$/;"	f	class:PrinterState	access:public	signature:()
+getLength	Printjob.h	/^    inline size_t getLength() {return length;}$/;"	f	class:Printjob	access:public	signature:()
+getM	GCode.h	/^    inline uint16_t getM() {return m;}$/;"	f	class:GCode	access:public	signature:()
+getMaterial	Printjob.h	/^    inline size_t getMaterial() {return material_zg;}$/;"	f	class:Printjob	access:public	signature:()
+getModelManager	printer.h	/^    inline PrintjobManager *getModelManager() {return modelManager;}$/;"	f	class:Printer	access:public	signature:()
+getMoveECmd	PrinterState.cpp	/^std::string PrinterState::getMoveECmd(double de,double f) {$/;"	f	class:PrinterState	signature:(double de,double f)
+getMoveECmd	PrinterState.h	/^    std::string getMoveECmd(double de,double f);$/;"	p	class:PrinterState	access:public	signature:(double de,double f)
+getMoveXCmd	PrinterState.cpp	/^std::string PrinterState::getMoveXCmd(double dx,double f) {$/;"	f	class:PrinterState	signature:(double dx,double f)
+getMoveXCmd	PrinterState.h	/^    std::string getMoveXCmd(double dx,double f);$/;"	p	class:PrinterState	access:public	signature:(double dx,double f)
+getMoveYCmd	PrinterState.cpp	/^std::string PrinterState::getMoveYCmd(double dy,double f) {$/;"	f	class:PrinterState	signature:(double dy,double f)
+getMoveYCmd	PrinterState.h	/^    std::string getMoveYCmd(double dy,double f);$/;"	p	class:PrinterState	access:public	signature:(double dy,double f)
+getMoveZCmd	PrinterState.cpp	/^std::string PrinterState::getMoveZCmd(double dz,double f) {$/;"	f	class:PrinterState	signature:(double dz,double f)
+getMoveZCmd	PrinterState.h	/^    std::string getMoveZCmd(double dz,double f);$/;"	p	class:PrinterState	access:public	signature:(double dz,double f)
+getN	GCode.h	/^    inline int32_t getN() {return n;}$/;"	f	class:GCode	access:public	signature:()
+getName	Printjob.cpp	/^std::string Printjob::getName() {$/;"	f	class:Printjob	signature:()
+getName	Printjob.h	/^    std::string getName();$/;"	p	class:Printjob	access:public	signature:()
+getOnlineStatus	printer.cpp	/^int Printer::getOnlineStatus() {$/;"	f	class:Printer	signature:()
+getOnlineStatus	printer.h	/^    int getOnlineStatus();$/;"	p	class:Printer	access:public	signature:()
+getOriginal	GCode.h	/^    inline const std::string& getOriginal() {return orig;}$/;"	f	class:GCode	access:public	signature:()
+getP	GCode.h	/^    inline int32_t getP() {return p;}$/;"	f	class:GCode	access:public	signature:()
+getPorts	global_config.h	/^    inline const std::string& getPorts() {return ports;}$/;"	f	class:GlobalConfig	access:public	signature:()
+getPrinterConfigDir	global_config.h	/^    inline const std::string& getPrinterConfigDir() {return printerConfigDir;}$/;"	f	class:GlobalConfig	access:public	signature:()
+getPrinterList	global_config.h	/^    inline std::vector<Printer*> &getPrinterList() {return printers;}$/;"	f	class:GlobalConfig	access:public	signature:()
+getResponsesSince	printer.cpp	/^boost::shared_ptr<list<boost::shared_ptr<PrinterResponse> > > Printer::getResponsesSince(uint32_t resId,uint8_t filter,uint32_t &lastid) {$/;"	f	class:Printer	signature:(uint32_t resId,uint8_t filter,uint32_t &lastid)
+getResponsesSince	printer.h	/^	boost::shared_ptr<std::list<boost::shared_ptr<PrinterResponse> > > getResponsesSince(uint32_t resId,uint8_t filter,uint32_t &lastid);$/;"	p	class:Printer	access:public	signature:(uint32_t resId,uint8_t filter,uint32_t &lastid)
+getS	GCode.h	/^    inline int32_t getS() {return s;}$/;"	f	class:GCode	access:public	signature:()
+getScriptManager	printer.h	/^    inline PrintjobManager *getScriptManager() {return scriptManager;}$/;"	f	class:Printer	access:public	signature:()
+getState	Printjob.h	/^    inline PrintjobState getState() {return state;}$/;"	f	class:Printjob	access:public	signature:()
+getStorageDirectory	global_config.h	/^    inline const std::string& getStorageDirectory() {return storageDir;}$/;"	f	class:GlobalConfig	access:public	signature:()
+getT	GCode.h	/^    inline uint8_t getT() {return t;}$/;"	f	class:GCode	access:public	signature:()
+getText	GCode.h	/^    inline const std::string& getText() {return text;}$/;"	f	class:GCode	access:public	signature:()
+getTime	Printjob.h	/^    inline size_t getTime() {return time_zg;}$/;"	f	class:Printjob	access:public	signature:()
+getTimeString	printer.cpp	/^std::string PrinterResponse::getTimeString() {$/;"	f	class:PrinterResponse	signature:()
+getTimeString	printer.h	/^    std::string getTimeString();$/;"	p	class:PrinterResponse	access:public	signature:()
+getWebsiteRoot	global_config.h	/^    inline const std::string& getWebsiteRoot() {return wwwDir;}$/;"	f	class:GlobalConfig	access:public	signature:()
+getX	GCode.h	/^    inline float getX() {return x;}$/;"	f	class:GCode	access:public	signature:()
+getY	GCode.h	/^    inline float getY() {return y;}$/;"	f	class:GCode	access:public	signature:()
+getZ	GCode.h	/^    inline float getZ() {return z;}$/;"	f	class:GCode	access:public	signature:()
+handleFileUpload	WebserverAPI.cpp	/^    bool handleFileUpload(struct mg_connection *conn,const string& filename,string& name,long &size,bool append) {$/;"	f	namespace:repetier	signature:(struct mg_connection *conn,const string& filename,string& name,long &size,bool append)
+hasComment	GCode.h	/^    inline bool hasComment() {return comment;}$/;"	f	class:GCode	access:public	signature:()
+hasE	GCode.h	/^    inline bool hasE() {return (fields & 64)!=0;}$/;"	f	class:GCode	access:public	signature:()
+hasF	GCode.h	/^    inline bool hasF() {return (fields & 256)!=0;}$/;"	f	class:GCode	access:public	signature:()
+hasG	GCode.h	/^    inline bool hasG() {return (fields & 4)!=0;}$/;"	f	class:GCode	access:public	signature:()
+hasHeatedBed	printer.h	/^    bool hasHeatedBed;$/;"	m	class:Printer	access:public
+hasI	GCode.h	/^    inline bool hasI() {return (fields2 & 1)!=0;}$/;"	f	class:GCode	access:public	signature:()
+hasJ	GCode.h	/^    inline bool hasJ() {return (fields2 & 2)!=0;}$/;"	f	class:GCode	access:public	signature:()
+hasM	GCode.h	/^    inline bool hasM()  {return (fields & 2)!=0;}$/;"	f	class:GCode	access:public	signature:()
+hasN	GCode.h	/^    inline bool hasN() {return (fields & 1)!=0;}$/;"	f	class:GCode	access:public	signature:()
+hasP	GCode.h	/^    inline bool hasP() {return (fields & 2048)!=0;}$/;"	f	class:GCode	access:public	signature:()
+hasR	GCode.h	/^    inline bool hasR() {return (fields2 & 4)!=0;}$/;"	f	class:GCode	access:public	signature:()
+hasS	GCode.h	/^    inline bool hasS() {return (fields & 1024)!=0;}$/;"	f	class:GCode	access:public	signature:()
+hasT	GCode.h	/^    inline bool hasT() {return (fields & 512)!=0;}$/;"	f	class:GCode	access:public	signature:()
+hasText	GCode.h	/^    inline bool hasText() {return (fields & 32768)!=0;}$/;"	f	class:GCode	access:public	signature:()
+hasX	GCode.h	/^    inline bool hasX() {return (fields & 8)!=0;}$/;"	f	class:GCode	access:public	signature:()
+hasXHome	PrinterState.h	/^    bool hasXHome, hasYHome, hasZHome;$/;"	m	class:PrinterState	access:private
+hasY	GCode.h	/^    inline bool hasY() {return (fields & 16)!=0;}$/;"	f	class:GCode	access:public	signature:()
+hasYHome	PrinterState.h	/^    bool hasXHome, hasYHome, hasZHome;$/;"	m	class:PrinterState	access:private
+hasZ	GCode.h	/^    inline bool hasZ() {return (fields & 32)!=0;}$/;"	f	class:GCode	access:public	signature:()
+hasZHome	PrinterState.h	/^    bool hasXHome, hasYHome, hasZHome;$/;"	m	class:PrinterState	access:private
+history	printer.h	/^	std::deque<boost::shared_ptr<GCode> > history; \/\/\/< Buffer of the last commands send.$/;"	m	class:Printer	access:private
+homex	printer.h	/^    double homex,homey,homez;$/;"	m	class:Printer	access:public
+homey	printer.h	/^    double homex,homey,homez;$/;"	m	class:Printer	access:public
+homez	printer.h	/^    double homex,homey,homez;$/;"	m	class:Printer	access:public
+hostCommand	GCode.h	/^    bool hostCommand;$/;"	m	class:GCode	access:public
+hostCommandPart	GCode.cpp	/^string GCode::hostCommandPart()$/;"	f	class:GCode	signature:()
+hostCommandPart	GCode.h	/^    std::string hostCommandPart();$/;"	p	class:GCode	access:public	signature:()
+hostParameter	GCode.cpp	/^string GCode::hostParameter()$/;"	f	class:GCode	signature:()
+hostParameter	GCode.h	/^    std::string hostParameter();$/;"	p	class:GCode	access:public	signature:()
+id	Printjob.h	/^    int id;$/;"	m	class:Printjob	access:private
+ignoreNextOk	printer.h	/^    bool ignoreNextOk; \/\/\/< Ignore the next ok because resend already indicated receive$/;"	m	class:Printer	access:private
+ii	GCode.h	/^    float x, y, z, e, f,ii,j,r;$/;"	m	class:GCode	access:public
+increaseLastline	PrinterState.cpp	/^uint32_t PrinterState::increaseLastline() {$/;"	f	class:PrinterState	signature:()
+increaseLastline	PrinterState.h	/^    uint32_t increaseLastline();$/;"	p	class:PrinterState	access:public	signature:()
+incrementLinesSend	Printjob.h	/^    inline void incrementLinesSend() {linesSend++;}$/;"	f	class:Printjob	access:public	signature:()
+injectJobCommand	printer.cpp	/^void Printer::injectJobCommand(const std::string& cmd) $/;"	f	class:Printer	signature:(const std::string& cmd)
+injectJobCommand	printer.h	/^    void injectJobCommand(const std::string& cmd);$/;"	p	class:Printer	access:public	signature:(const std::string& cmd)
+injectManualCommand	printer.cpp	/^void Printer::injectManualCommand(const std::string& cmd) {$/;"	f	class:Printer	signature:(const std::string& cmd)
+injectManualCommand	printer.h	/^    void injectManualCommand(const std::string& cmd);$/;"	p	class:Printer	access:public	signature:(const std::string& cmd)
+injectUnpause	PrinterState.cpp	/^void PrinterState::injectUnpause() {$/;"	f	class:PrinterState	signature:()
+injectUnpause	PrinterState.h	/^    void injectUnpause();$/;"	p	class:PrinterState	access:public	signature:()
+intToString	global_config.cpp	/^std::string intToString(int number) {$/;"	f	signature:(int number)
+intToString	global_config.h	/^extern std::string intToString(int number);$/;"	p	signature:(int number)
+io	PrinterSerial.h	/^    boost::asio::io_service io; \/\/\/< Io service object$/;"	m	class:PrinterSerial	access:private
+isConnected	PrinterSerial.cpp	/^bool PrinterSerial::isConnected() {$/;"	f	class:PrinterSerial	signature:()
+isConnected	PrinterSerial.h	/^    bool isConnected();$/;"	p	class:PrinterSerial	access:public	signature:()
+isG1Move	PrinterState.h	/^    bool isG1Move;$/;"	m	class:PrinterState	access:private
+isMarlin	PrinterState.h	/^    bool isMarlin;$/;"	m	class:PrinterState	access:private
+isNotExistent	Printjob.h	/^    inline bool isNotExistent() {return state==doesNotExist;}$/;"	f	class:Printjob	access:public	signature:()
+isOpen	PrinterSerial.cpp	/^bool PrinterSerial::isOpen() {$/;"	f	class:PrinterSerial	signature:()
+isOpen	PrinterSerial.h	/^    bool isOpen();$/;"	p	class:PrinterSerial	access:public	signature:()
+isRepetier	PrinterState.h	/^    bool isRepetier;$/;"	m	class:PrinterState	access:private
+isV2	GCode.h	/^    inline bool isV2() {return (fields & 4096)!=0;}$/;"	f	class:GCode	access:public	signature:()
+j	GCode.h	/^    float x, y, z, e, f,ii,j,r;$/;"	m	class:GCode	access:public
+jobCommands	printer.h	/^	std::deque<std::string> jobCommands; \/\/\/< Buffer of commands comming from a job. Not necessaryly the complete job! Job may refill the buffer if it gets empty.$/;"	m	class:Printer	access:private
+jobCommandsStored	printer.cpp	/^size_t Printer::jobCommandsStored() {$/;"	f	class:Printer	signature:()
+jobCommandsStored	printer.h	/^    size_t jobCommandsStored();$/;"	p	class:Printer	access:public	signature:()
+jobManager	printer.h	/^    PrintjobManager *jobManager;$/;"	m	class:Printer	access:private
+jobPause	printer.h	/^		bool jobPause;  \/\/\/1:pause  0:contine$/;"	m	class:Printer	access:public
+jobin	Printjob.h	/^    std::ifstream jobin;$/;"	m	class:PrintjobManager	access:private
+killJob	Printjob.cpp	/^void PrintjobManager::killJob(int id) {$/;"	f	class:PrintjobManager	signature:(int id)
+killJob	Printjob.h	/^    void killJob(int id);$/;"	p	class:PrintjobManager	access:public	signature:(int id)
+langMutex	WebserverAPI.cpp	/^    static boost::mutex langMutex;$/;"	m	namespace:repetier	file:
+langNotExist	WebserverAPI.cpp	/^    static set<string> langNotExist;$/;"	m	namespace:repetier	file:
+languageDir	global_config.h	/^    std::string languageDir; \/\/\/< Dir with translation text.$/;"	m	class:GlobalConfig	access:private
+lastCommandSend	printer.h	/^    boost::posix_time::ptime lastCommandSend;$/;"	m	class:Printer	access:private
+lastE	PrinterState.h	/^    double lastX,lastY,lastZ,lastE;$/;"	m	class:PrinterState	access:private
+lastResponseId	printer.h	/^    uint32_t lastResponseId;$/;"	m	class:Printer	access:private
+lastTemp	printer.h	/^    boost::posix_time::ptime lastTemp; \/\/\/< Last temp read. Always access with lastTempMutex$/;"	m	class:Printer	access:private
+lastTempMutex	printer.h	/^    boost::mutex lastTempMutex;$/;"	m	class:Printer	access:private
+lastX	PrinterState.h	/^    double lastX,lastY,lastZ,lastE;$/;"	m	class:PrinterState	access:private
+lastY	PrinterState.h	/^    double lastX,lastY,lastZ,lastE;$/;"	m	class:PrinterState	access:private
+lastZ	PrinterState.h	/^    double lastX,lastY,lastZ,lastE;$/;"	m	class:PrinterState	access:private
+lastZPrint	PrinterState.h	/^    double lastZPrint;$/;"	m	class:PrinterState	access:private
+lastid	Printjob.h	/^    int lastid;$/;"	m	class:PrintjobManager	access:private
+lastline	PrinterState.h	/^    uint32_t lastline;$/;"	m	class:PrinterState	access:private
+layer	PrinterState.h	/^    int layer;$/;"	m	class:PrinterState	access:private
+le	timeEstimate.h	/^	float lx , ly , lz , le , lf ;\/\/上一步存储的GCODE参数$/;"	m	class:TimeEstimateCalculator	access:private
+length	GCode.h	/^    int length;$/;"	m	class:GCodeDataPacket	access:public
+length	Printjob.h	/^    size_t length; \/\/\/< Length of the print file$/;"	m	class:Printjob	access:private
+lf	timeEstimate.h	/^	float lx , ly , lz , le , lf ;\/\/上一步存储的GCODE参数$/;"	m	class:TimeEstimateCalculator	access:private
+line	printer.h	/^    uint32_t line;$/;"	m	class:PrinterHistoryLine	access:public
+linesSend	Printjob.h	/^    int linesSend;$/;"	m	class:Printjob	access:private
+linesSend	printer.h	/^    int linesSend;$/;"	m	class:Printer	access:private
+listPrinter	WebserverAPI.cpp	/^    void listPrinter(Object &ret) {$/;"	f	namespace:repetier	signature:(Object &ret)
+log	RLog.cpp	/^void RLog::log(const std::string &line,bool err) {$/;"	f	class:RLog	signature:(const std::string &line,bool err)
+log	RLog.cpp	/^void RLog::log(const std::string &line,const std::string& val,bool err) {$/;"	f	class:RLog	signature:(const std::string &line,const std::string& val,bool err)
+log	RLog.cpp	/^void RLog::log(const std::string &line,double val,bool err) {$/;"	f	class:RLog	signature:(const std::string &line,double val,bool err)
+log	RLog.cpp	/^void RLog::log(const std::string &line,int val,bool err) {$/;"	f	class:RLog	signature:(const std::string &line,int val,bool err)
+log	RLog.h	/^    static void log(const std::string &line,bool err=false);$/;"	p	class:RLog	access:public	signature:(const std::string &line,bool err=false)
+log	RLog.h	/^    static void log(const std::string &line,const std::string& val,bool err=false);$/;"	p	class:RLog	access:public	signature:(const std::string &line,const std::string& val,bool err=false)
+log	RLog.h	/^    static void log(const std::string &line,double val,bool err=false);$/;"	p	class:RLog	access:public	signature:(const std::string &line,double val,bool err=false)
+log	RLog.h	/^    static void log(const std::string &line,int val,bool err=false);$/;"	p	class:RLog	access:public	signature:(const std::string &line,int val,bool err=false)
+logtype	printer.h	/^    uint8_t logtype;$/;"	m	class:PrinterResponse	access:public
+lx	timeEstimate.h	/^	float lx , ly , lz , le , lf ;\/\/上一步存储的GCODE参数$/;"	m	class:TimeEstimateCalculator	access:private
+ly	timeEstimate.h	/^	float lx , ly , lz , le , lf ;\/\/上一步存储的GCODE参数$/;"	m	class:TimeEstimateCalculator	access:private
+lz	timeEstimate.h	/^	float lx , ly , lz , le , lf ;\/\/上一步存储的GCODE参数$/;"	m	class:TimeEstimateCalculator	access:private
+m	GCode.h	/^    uint16_t g, m;$/;"	m	class:GCode	access:public
+machine	PrinterState.h	/^    std::string machine;$/;"	m	class:PrinterState	access:private
+manageHostCommand	printer.cpp	/^void Printer::manageHostCommand(boost::shared_ptr<GCode> &cmd) {$/;"	f	class:Printer	signature:(boost::shared_ptr<GCode> &cmd)
+manageHostCommand	printer.h	/^    void manageHostCommand(boost::shared_ptr<GCode> &cmd);$/;"	p	class:Printer	access:private	signature:(boost::shared_ptr<GCode> &cmd)
+manageJobs	Printjob.cpp	/^void PrintjobManager::manageJobs() {$/;"	f	class:PrintjobManager	signature:()
+manageJobs	Printjob.h	/^    void manageJobs();$/;"	p	class:PrintjobManager	access:public	signature:()
+manualCommands	printer.h	/^	std::deque<std::string> manualCommands; \/\/\/< Buffer of manual commands to send.$/;"	m	class:Printer	access:private
+material_zg	Printjob.h	/^    int material_zg;$/;"	m	class:Printjob	access:private
+max_acceleration	timeEstimate.cpp	/^const double max_acceleration[TimeEstimateCalculator::NUM_AXIS] = {9000,9000,100,10000};$/;"	v
+max_e_jerk	timeEstimate.cpp	/^const double max_e_jerk = 5.0;$/;"	v
+max_feedrate	timeEstimate.cpp	/^const double max_feedrate[TimeEstimateCalculator::NUM_AXIS] = {600, 600, 40, 25};$/;"	v
+max_xy_jerk	timeEstimate.cpp	/^const double max_xy_jerk = 20.0;$/;"	v
+max_z_jerk	timeEstimate.cpp	/^const double max_z_jerk = 0.4;$/;"	v
+mesgId	global_config.h	/^    int mesgId;  \/\/\/< Message id$/;"	m	class:RepetierMessage	access:public
+message	global_config.h	/^    std::string message; \/\/\/< The message itself.$/;"	m	class:RepetierMessage	access:public
+message	printer.h	/^    std::string message;$/;"	m	class:PrinterResponse	access:public
+minimumfeedrate	timeEstimate.cpp	/^const double minimumfeedrate = 0.01;$/;"	v
+modelManager	printer.h	/^    PrintjobManager *modelManager;$/;"	m	class:Printer	access:private
+move	printer.cpp	/^void Printer::move(double x,double y,double z,double e) {$/;"	f	class:Printer	signature:(double x,double y,double z,double e)
+move	printer.h	/^    void move(double x,double y,double z,double e);$/;"	p	class:Printer	access:public	signature:(double x,double y,double z,double e)
+moveLength	timeEstimate.h	/^	double moveLength; \/\/同一个速度下轨迹长度$/;"	m	class:TimeEstimateCalculator	access:private
+msgCounter	global_config.h	/^    int msgCounter; \/\/\/< Last used message id.$/;"	m	class:GlobalConfig	access:private
+msgList	global_config.h	/^    std::list<RepetierMsgPtr> msgList; \/\/\/< List with active messages.$/;"	m	class:GlobalConfig	access:private
+msgMutex	global_config.h	/^    mutex msgMutex; \/\/\/< Mutex for thread safety of message system.$/;"	m	class:GlobalConfig	access:private
+mutex	PrinterState.h	/^    boost::mutex mutex; \/\/ Used for thread safety$/;"	m	class:PrinterState	access:private
+mutex	printer.h	/^    boost::mutex mutex;$/;"	m	class:Printer	access:private
+myclose	WebserverAPI.cpp	72;"	d	file:
+myopen	WebserverAPI.cpp	73;"	d	file:
+mystrnstr	WebserverAPI.cpp	/^	char *mystrnstr(const char *s,const char *needle,int len) {$/;"	f	namespace:repetier	signature:(const char *s,const char *needle,int len)
+mywrite	WebserverAPI.cpp	76;"	d	file:
+n	GCode.h	/^    int32_t n;$/;"	m	class:GCode	access:public
+nackLines	printer.h	/^	std::deque<int> nackLines; \/\/\/< Length of unacknowledged lines send.$/;"	m	class:Printer	access:private
+name	printer.h	/^    std::string name;$/;"	m	class:Printer	access:public
+nullptr	timeEstimate.h	/^} nullptr = {};$/;"	v	typeref:class:nullptr_t
+nullptr_t	timeEstimate.h	/^class nullptr_t$/;"	c
+nullptr_t::operator &	timeEstimate.h	/^void operator&() const;$/;"	p	class:nullptr_t	access:private	signature:() const
+nullptr_t::operator T C::*	timeEstimate.h	/^inline operator T C::*() const$/;"	f	class:nullptr_t	access:public	signature:() const
+nullptr_t::operator T*	timeEstimate.h	/^inline operator T*() const$/;"	f	class:nullptr_t	access:public	signature:() const
+okAfterResend	printer.h	/^    bool okAfterResend;$/;"	m	class:Printer	access:public
+open	PrinterSerial.h	/^    bool open; \/\/\/< True if port open$/;"	m	class:PrinterSerial	access:private
+operator &	timeEstimate.h	/^void operator&() const;$/;"	p	class:nullptr_t	access:private	signature:() const
+operator T C::*	timeEstimate.h	/^inline operator T C::*() const$/;"	f	class:nullptr_t	access:public	signature:() const
+operator T*	timeEstimate.h	/^inline operator T*() const$/;"	f	class:nullptr_t	access:public	signature:() const
+orig	GCode.h	/^    std::string orig;$/;"	m	class:GCode	access:public
+output	PrinterState.h	/^    int8_t output;$/;"	m	struct:PrinterTemp	access:public
+p	GCode.h	/^    int32_t p;$/;"	m	class:GCode	access:public
+parity	PrinterSerial.h	/^    boost::asio::serial_port_base::parity parity;$/;"	m	class:PrinterSerial	access:private
+parse	GCode.cpp	/^void GCode::parse(Printer *printer) {$/;"	f	class:GCode	signature:(Printer *printer)
+parse	GCode.h	/^    void parse(Printer *printer);$/;"	p	class:GCode	access:private	signature:(Printer *printer)
+pauseE	PrinterState.h	/^    double pauseX,pauseY,pauseZ,pauseE,pauseF;$/;"	m	class:PrinterState	access:private
+pauseF	PrinterState.h	/^    double pauseX,pauseY,pauseZ,pauseE,pauseF;$/;"	m	class:PrinterState	access:private
+pauseRelative	PrinterState.h	/^    bool pauseRelative;$/;"	m	class:PrinterState	access:private
+pauseX	PrinterState.h	/^    double pauseX,pauseY,pauseZ,pauseE,pauseF;$/;"	m	class:PrinterState	access:private
+pauseY	PrinterState.h	/^    double pauseX,pauseY,pauseZ,pauseE,pauseF;$/;"	m	class:PrinterState	access:private
+pauseZ	PrinterState.h	/^    double pauseX,pauseY,pauseZ,pauseE,pauseF;$/;"	m	class:PrinterState	access:private
+paused	printer.h	/^    bool paused;$/;"	m	class:Printer	access:private
+pclose	WebserverAPI.cpp	71;"	d	file:
+percentDone	Printjob.h	/^    inline double percentDone() {return 100.0*pos\/(double)length;}$/;"	f	class:Printjob	access:public	signature:()
+pingpong	printer.h	/^    bool pingpong;$/;"	m	class:Printer	access:public
+pjlist	Printjob.cpp	/^typedef list<shared_ptr<Printjob> > pjlist;$/;"	t	file:
+popen	WebserverAPI.cpp	70;"	d	file:
+port	PrinterSerial.h	/^    PrinterSerialPort port; \/\/\/< Serial port object$/;"	m	class:PrinterSerial	access:private
+ports	global_config.h	/^    std::string ports; \/\/\/< Ports the server should listen to.$/;"	m	class:GlobalConfig	access:private
+pos	Printjob.h	/^    long long pos; \/\/\/< Send until this position$/;"	m	class:Printjob	access:private
+powerOn	PrinterState.h	/^    bool powerOn;$/;"	m	class:PrinterState	access:private
+printer	PrinterSerial.h	/^    Printer *printer;$/;"	m	class:PrinterSerial	access:private
+printer	PrinterState.h	/^    Printer *printer;$/;"	m	class:PrinterState	access:private
+printer	Printjob.h	/^    Printer *printer;$/;"	m	class:PrintjobManager	access:private
+printerConfigDir	global_config.h	/^    std::string printerConfigDir; \/\/\/< Printer config directory$/;"	m	class:GlobalConfig	access:private
+printerDepth	PrinterState.h	/^    double printerWidth, printerHeight, printerDepth;$/;"	m	class:PrinterState	access:private
+printerHeight	PrinterState.h	/^    double printerWidth, printerHeight, printerDepth;$/;"	m	class:PrinterState	access:private
+printerWidth	PrinterState.h	/^    double printerWidth, printerHeight, printerDepth;$/;"	m	class:PrinterState	access:private
+printers	global_config.h	/^    std::vector<Printer*> printers;$/;"	m	class:GlobalConfig	access:private
+printingTime	PrinterState.h	/^    double printingTime;$/;"	m	class:PrinterState	access:private
+printjob	timeEstimate.h	/^	Printjob * printjob;$/;"	m	class:TimeEstimateCalculator	access:private
+protocol	PrinterState.h	/^    std::string protocol;$/;"	m	class:PrinterState	access:private
+pushCompleteJob	Printjob.cpp	/^void PrintjobManager::pushCompleteJob(std::string name,bool beginning) {$/;"	f	class:PrintjobManager	signature:(std::string name,bool beginning)
+pushCompleteJob	Printjob.h	/^    void pushCompleteJob(std::string name,bool beginning = false);$/;"	p	class:PrintjobManager	access:public	signature:(std::string name,bool beginning = false)
+pushCompleteJobNoBlock	Printjob.cpp	/^void PrintjobManager::pushCompleteJobNoBlock(std::string name,bool beginning) {$/;"	f	class:PrintjobManager	signature:(std::string name,bool beginning)
+pushCompleteJobNoBlock	Printjob.h	/^    void pushCompleteJobNoBlock(std::string name,bool beginning = false);$/;"	p	class:PrintjobManager	access:public	signature:(std::string name,bool beginning = false)
+pvec	Printjob.cpp	/^typedef vector<path> pvec;             \/\/ store paths$/;"	t	file:
+r	GCode.h	/^    float x, y, z, e, f,ii,j,r;$/;"	m	class:GCode	access:public
+readBuffer	PrinterSerial.h	/^    char readBuffer[READ_BUFFER_SIZE]; \/\/\/< data being read$/;"	m	class:PrinterSerial	access:private
+readEnd	PrinterSerial.cpp	/^void PrinterSerial::readEnd(const boost::system::error_code& error,$/;"	f	class:PrinterSerial	signature:(const boost::system::error_code& error, size_t bytes_transferred)
+readEnd	PrinterSerial.h	/^    void readEnd(const boost::system::error_code& error,size_t bytes_transferred);$/;"	p	class:PrinterSerial	access:private	signature:(const boost::system::error_code& error,size_t bytes_transferred)
+readPrinterConfigs	global_config.cpp	/^void GlobalConfig::readPrinterConfigs() {$/;"	f	class:GlobalConfig	signature:()
+readPrinterConfigs	global_config.h	/^    void readPrinterConfigs();$/;"	p	class:GlobalConfig	access:public	signature:()
+readString	PrinterSerial.h	/^    std::string readString;$/;"	m	class:PrinterSerial	access:private
+readyForNextSend	printer.h	/^    bool readyForNextSend; \/\/\/< In pingpong mode indicates that ok was received for the last line.$/;"	m	class:Printer	access:private
+receiveCacheFill	printer.h	/^    int receiveCacheFill; \/\/\/< Bytes send to the printer that are not acknowledged.$/;"	m	class:Printer	access:private
+relative	PrinterState.h	/^    bool relative;$/;"	m	class:PrinterState	access:private
+relative	timeEstimate.h	/^    bool relative = false;$/;"	m	class:TimeEstimateCalculator	access:private
+removeMessage	global_config.cpp	/^void GlobalConfig::removeMessage(int id) {$/;"	f	class:GlobalConfig	signature:(int id)
+removeMessage	global_config.h	/^    void removeMessage(int id);$/;"	p	class:GlobalConfig	access:public	signature:(int id)
+repetier	WebserverAPI.cpp	/^namespace repetier {$/;"	n	file:
+repetier	WebserverAPI.h	/^namespace repetier {$/;"	n
+repetier::FillTemplate	WebserverAPI.cpp	/^    void FillTemplate(string &text,string& result,Object& data) {$/;"	f	namespace:repetier	signature:(string &text,string& result,Object& data)
+repetier::FillTemplateRecursive	WebserverAPI.cpp	/^    void FillTemplateRecursive(string& text,string& result,list<Value>& vars,size_t start,size_t end) {$/;"	f	namespace:repetier	signature:(string& text,string& result,list<Value>& vars,size_t start,size_t end)
+repetier::HTTP_500	WebserverAPI.cpp	/^    static const char *HTTP_500 = "HTTP\/1.0 500 Server Error\\r\\n\\r\\n";$/;"	m	namespace:repetier	file:
+repetier::HandlePagerequest	WebserverAPI.cpp	/^    void* HandlePagerequest(struct mg_connection *conn) {$/;"	f	namespace:repetier	signature:(struct mg_connection *conn)
+repetier::HandlePagerequest	WebserverAPI.h	/^    extern void* HandlePagerequest(struct mg_connection *conn);$/;"	p	namespace:repetier	signature:(struct mg_connection *conn)
+repetier::HandleWebrequest	WebserverAPI.cpp	/^    void HandleWebrequest(struct mg_connection *conn) {$/;"	f	namespace:repetier	signature:(struct mg_connection *conn)
+repetier::HandleWebrequest	WebserverAPI.h	/^    extern void HandleWebrequest(struct mg_connection *conn);$/;"	p	namespace:repetier	signature:(struct mg_connection *conn)
+repetier::JSONValueAsString	WebserverAPI.cpp	/^    string JSONValueAsString(const Value &v) {$/;"	f	namespace:repetier	signature:(const Value &v)
+repetier::MG_getPostVar	WebserverAPI.cpp	/^    bool MG_getPostVar(char *buf,int buflen,const mg_request_info *info,const char *name, std::string &output) {$/;"	f	namespace:repetier	signature:(char *buf,int buflen,const mg_request_info *info,const char *name, std::string &output)
+repetier::MG_getPostVar	WebserverAPI.h	/^    extern bool MG_getPostVar(char *buf,int buflen,const mg_request_info *info,const char *name, std::string &output);$/;"	p	namespace:repetier	signature:(char *buf,int buflen,const mg_request_info *info,const char *name, std::string &output)
+repetier::MG_getVar	WebserverAPI.cpp	/^    bool MG_getVar(const mg_request_info *info,const char *name, std::string &output)$/;"	f	namespace:repetier	signature:(const mg_request_info *info,const char *name, std::string &output)
+repetier::MG_getVar	WebserverAPI.h	/^    extern bool MG_getVar(const mg_request_info *info,const char *name, std::string &output);$/;"	p	namespace:repetier	signature:(const mg_request_info *info,const char *name, std::string &output)
+repetier::TranslateFile	WebserverAPI.cpp	/^    void TranslateFile(const std::string &filename,const std::string &lang,std::string& result) {$/;"	f	namespace:repetier	signature:(const std::string &filename,const std::string &lang,std::string& result)
+repetier::TranslateFile	WebserverAPI.h	/^    extern void TranslateFile(const std::string &filename,const std::string &lang,std::string& result);$/;"	p	namespace:repetier	signature:(const std::string &filename,const std::string &lang,std::string& result)
+repetier::doesLanguageExist	WebserverAPI.cpp	/^    bool doesLanguageExist(string lang) {$/;"	f	namespace:repetier	signature:(string lang)
+repetier::doesLanguageExist	WebserverAPI.h	/^    extern bool doesLanguageExist(std::string lang);$/;"	p	namespace:repetier	signature:(std::string lang)
+repetier::findVariable	WebserverAPI.cpp	/^    Value* findVariable(list<Value> &vars,const string& name) {$/;"	f	namespace:repetier	signature:(list<Value> &vars,const string& name)
+repetier::handleFileUpload	WebserverAPI.cpp	/^    bool handleFileUpload(struct mg_connection *conn,const string& filename,string& name,long &size,bool append) {$/;"	f	namespace:repetier	signature:(struct mg_connection *conn,const string& filename,string& name,long &size,bool append)
+repetier::langMutex	WebserverAPI.cpp	/^    static boost::mutex langMutex;$/;"	m	namespace:repetier	file:
+repetier::langNotExist	WebserverAPI.cpp	/^    static set<string> langNotExist;$/;"	m	namespace:repetier	file:
+repetier::listPrinter	WebserverAPI.cpp	/^    void listPrinter(Object &ret) {$/;"	f	namespace:repetier	signature:(Object &ret)
+repetier::mystrnstr	WebserverAPI.cpp	/^	char *mystrnstr(const char *s,const char *needle,int len) {$/;"	f	namespace:repetier	signature:(const char *s,const char *needle,int len)
+repetier::rmap	WebserverAPI.cpp	/^    static map<string,boost::shared_ptr<moFileLib::moFileReader> > rmap;$/;"	m	namespace:repetier	file:
+resendError	printer.h	/^    int resendError;$/;"	m	class:Printer	access:private
+resendLine	printer.cpp	/^void Printer::resendLine(size_t line)$/;"	f	class:Printer	signature:(size_t line)
+resendLine	printer.h	/^    void resendLine(size_t line);$/;"	p	class:Printer	access:private	signature:(size_t line)
+resendLines	printer.h	/^	std::deque<boost::shared_ptr<GCode> > resendLines; \/\/\/< Lines for which a resend was requested.$/;"	m	class:Printer	access:private
+reset	PrinterState.cpp	/^void PrinterState::reset() {$/;"	f	class:PrinterState	signature:()
+reset	PrinterState.h	/^    void reset();$/;"	p	class:PrinterState	access:public	signature:()
+resetPrinter	PrinterSerial.cpp	/^void PrinterSerial::resetPrinter() {$/;"	f	class:PrinterSerial	signature:()
+resetPrinter	PrinterSerial.h	/^    void resetPrinter();$/;"	p	class:PrinterSerial	access:public	signature:()
+responseId	printer.h	/^    uint32_t responseId;$/;"	m	class:PrinterResponse	access:public
+responseMutex	printer.h	/^    boost::mutex responseMutex;$/;"	m	class:Printer	access:private
+responses	printer.h	/^    std::deque<boost::shared_ptr<PrinterResponse> > responses;$/;"	m	class:Printer	access:private
+rmap	WebserverAPI.cpp	/^    static map<string,boost::shared_ptr<moFileLib::moFileReader> > rmap;$/;"	m	namespace:repetier	file:
+run	printer.cpp	/^void Printer::run() {$/;"	f	class:Printer	signature:()
+run	printer.h	/^    void run();$/;"	p	class:Printer	access:private	signature:()
+running	Printjob.h	/^    enum PrintjobState {startUpload,stored,running,finished,doesNotExist};$/;"	e	enum:Printjob::PrintjobState
+runningJob	Printjob.h	/^    PrintjobPtr runningJob;$/;"	m	class:PrintjobManager	access:private
+s	GCode.h	/^    int32_t s;$/;"	m	class:GCode	access:public
+script	Printjob.h	/^    bool script;$/;"	m	class:Printjob	access:private
+scriptManager	printer.h	/^    PrintjobManager *scriptManager;$/;"	m	class:Printer	access:private
+scripts	Printjob.h	/^    bool scripts;$/;"	m	class:PrintjobManager	access:private
+sdcardMounted	PrinterState.h	/^    bool sdcardMounted;$/;"	m	class:PrinterState	access:private
+sendMutex	printer.h	/^    boost::mutex sendMutex;$/;"	m	class:Printer	access:private
+serial	printer.h	/^    PrinterSerial *serial;$/;"	m	class:Printer	access:private
+setActive	printer.cpp	/^void Printer::setActive(bool v) {$/;"	f	class:Printer	signature:(bool v)
+setActive	printer.h	/^    void setActive(bool v);$/;"	p	class:Printer	access:public	signature:(bool v)
+setDTR	PrinterSerial.cpp	/^void PrinterSerialPort::setDTR(bool on) {$/;"	f	class:PrinterSerialPort	signature:(bool on)
+setDTR	PrinterSerial.h	/^    void setDTR(bool on);$/;"	p	class:PrinterSerialPort	access:public	signature:(bool on)
+setErrorStatus	PrinterSerial.cpp	/^void PrinterSerial::setErrorStatus(bool e) {$/;"	f	class:PrinterSerial	signature:(bool e)
+setErrorStatus	PrinterSerial.h	/^    void setErrorStatus(bool e);$/;"	p	class:PrinterSerial	access:public	signature:(bool e)
+setFilename	Printjob.h	/^    inline void setFilename(std::string fname) {file = fname;}$/;"	f	class:Printjob	access:public	signature:(std::string fname)
+setIsathome	PrinterState.cpp	/^void PrinterState::setIsathome() {$/;"	f	class:PrinterState	signature:()
+setIsathome	PrinterState.h	/^    void setIsathome();$/;"	p	class:PrinterState	access:public	signature:()
+setLength	Printjob.h	/^    inline void setLength(size_t l) {length = l;}$/;"	f	class:Printjob	access:public	signature:(size_t l)
+setMaterial	Printjob.h	/^    inline void setMaterial(int m) {material_zg = m;}$/;"	f	class:Printjob	access:public	signature:(int m)
+setN	GCode.cpp	/^void GCode::setN(int32_t line) {$/;"	f	class:GCode	signature:(int32_t line)
+setN	GCode.h	/^    void setN(int32_t line);$/;"	p	class:GCode	access:public	signature:(int32_t line)
+setPos	Printjob.h	/^    inline void setPos(long long p) {pos = p;}$/;"	f	class:Printjob	access:public	signature:(long long p)
+setPosition	timeEstimate.h	/^	void setPosition() {lx=x;ly=y;lz=z;le=e;lf=f;}$/;"	f	class:TimeEstimateCalculator	access:public	signature:()
+setRunning	Printjob.h	/^    inline void setRunning() {state = running;}$/;"	f	class:Printjob	access:public	signature:()
+setStored	Printjob.h	/^    inline void setStored() {state = stored;}$/;"	f	class:Printjob	access:public	signature:()
+setTime	Printjob.h	/^    inline void setTime(int t) {time_zg = t;}$/;"	f	class:Printjob	access:public	signature:(int t)
+set_baudrate	PrinterSerial.cpp	/^void PrinterSerialPort::set_baudrate(int baud) {$/;"	f	class:PrinterSerialPort	signature:(int baud)
+set_baudrate	PrinterSerial.h	/^    void set_baudrate(int baud);$/;"	p	class:PrinterSerialPort	access:public	signature:(int baud)
+shouldInjectCommand	printer.cpp	/^bool Printer::shouldInjectCommand(const std::string& cmd) {$/;"	f	class:Printer	signature:(const std::string& cmd)
+shouldInjectCommand	printer.h	/^    bool shouldInjectCommand(const std::string& cmd);$/;"	p	class:Printer	access:public	signature:(const std::string& cmd)
+slugName	printer.h	/^    std::string slugName;$/;"	m	class:Printer	access:public
+snprintf	WebserverAPI.cpp	68;"	d	file:
+speedMultiply	PrinterState.h	/^    int speedMultiply;$/;"	m	class:PrinterState	access:private
+speedeExtrude	printer.h	/^    double speedx,speedy,speedz,speedeExtrude,speedeRetract;$/;"	m	class:Printer	access:public
+speedeRetract	printer.h	/^    double speedx,speedy,speedz,speedeExtrude,speedeRetract;$/;"	m	class:Printer	access:public
+speedx	printer.h	/^    double speedx,speedy,speedz,speedeExtrude,speedeRetract;$/;"	m	class:Printer	access:public
+speedy	printer.h	/^    double speedx,speedy,speedz,speedeExtrude,speedeRetract;$/;"	m	class:Printer	access:public
+speedz	printer.h	/^    double speedx,speedy,speedz,speedeExtrude,speedeRetract;$/;"	m	class:Printer	access:public
+square	timeEstimate.cpp	/^template<typename T> const T square(const T& a) { return a * a; }$/;"	f	signature:(const T& a)
+start	Printjob.cpp	/^void Printjob::start() {$/;"	f	class:Printjob	signature:()
+start	Printjob.h	/^    void start();$/;"	p	class:Printjob	access:public	signature:()
+startJob	Printjob.cpp	/^void PrintjobManager::startJob(int id) {$/;"	f	class:PrintjobManager	signature:(int id)
+startJob	Printjob.h	/^    void startJob(int id);$/;"	p	class:PrintjobManager	access:public	signature:(int id)
+startPrinterThreads	global_config.cpp	/^void GlobalConfig::startPrinterThreads() {$/;"	f	class:GlobalConfig	signature:()
+startPrinterThreads	global_config.h	/^    void startPrinterThreads();$/;"	p	class:GlobalConfig	access:public	signature:()
+startThread	printer.cpp	/^void Printer::startThread() {$/;"	f	class:Printer	signature:()
+startThread	printer.h	/^    void startThread();$/;"	p	class:Printer	access:public	signature:()
+startUpload	Printjob.h	/^    enum PrintjobState {startUpload,stored,running,finished,doesNotExist};$/;"	e	enum:Printjob::PrintjobState
+state	Printjob.h	/^    PrintjobState state;$/;"	m	class:Printjob	access:private
+state	printer.h	/^    PrinterState *state;$/;"	m	class:Printer	access:public
+stop	Printjob.cpp	/^void Printjob::stop(Printer *p) {$/;"	f	class:Printjob	signature:(Printer *p)
+stop	Printjob.h	/^    void stop(Printer *p);$/;"	p	class:Printjob	access:public	signature:(Printer *p)
+stopBits	PrinterSerial.h	/^    boost::asio::serial_port_base::stop_bits stopBits;$/;"	m	class:PrinterSerial	access:private
+stopPause	printer.cpp	/^void Printer::stopPause() {$/;"	f	class:Printer	signature:()
+stopPause	printer.h	/^    void stopPause();$/;"	p	class:Printer	access:public	signature:()
+stopPrinterThreads	global_config.cpp	/^void GlobalConfig::stopPrinterThreads() {$/;"	f	class:GlobalConfig	signature:()
+stopPrinterThreads	global_config.h	/^    void stopPrinterThreads();$/;"	p	class:GlobalConfig	access:public	signature:()
+stopRequested	printer.h	/^    volatile bool stopRequested;$/;"	m	class:Printer	access:private
+stopThread	printer.cpp	/^void Printer::stopThread() {$/;"	f	class:Printer	signature:()
+stopThread	printer.h	/^    void stopThread();$/;"	p	class:Printer	access:public	signature:()
+storageDir	global_config.h	/^    std::string storageDir; \/\/\/< Data storage directory.$/;"	m	class:GlobalConfig	access:private
+storePause	PrinterState.cpp	/^void PrinterState::storePause() {$/;"	f	class:PrinterState	signature:()
+storePause	PrinterState.h	/^    void storePause();$/;"	p	class:PrinterState	access:public	signature:()
+stored	Printjob.h	/^    enum PrintjobState {startUpload,stored,running,finished,doesNotExist};$/;"	e	enum:Printjob::PrintjobState
+strnstr	WebserverAPI.cpp	69;"	d	file:
+strtoll	WebserverAPI.cpp	55;"	d	file:
+strtoull	WebserverAPI.cpp	54;"	d	file:
+sumTime	timeEstimate.h	/^	double sumTime; \/\/叠加的总时间$/;"	m	class:TimeEstimateCalculator	access:private
+t	GCode.h	/^    uint8_t t;$/;"	m	class:GCode	access:public
+tempMonitor	PrinterState.h	/^    int tempMonitor;$/;"	m	class:PrinterState	access:private
+tempRead	PrinterState.h	/^    double tempRead;$/;"	m	struct:PrinterTemp	access:public
+tempSet	PrinterState.h	/^    double tempSet;$/;"	m	struct:PrinterTemp	access:public
+text	GCode.h	/^    std::string text;$/;"	m	class:GCode	access:public
+thread	printer.h	/^    boost::shared_ptr<boost::thread> thread;$/;"	m	class:Printer	access:private
+time	PrinterState.h	/^    uint64_t time;$/;"	m	struct:PrinterTemp	access:public
+time	Printjob.h	/^    boost::posix_time::ptime time;$/;"	m	class:Printjob	access:private
+time	printer.h	/^    boost::posix_time::ptime time;$/;"	m	class:PrinterResponse	access:public
+time_zg	Printjob.h	/^    int time_zg;$/;"	m	class:Printjob	access:private
+tryConnect	PrinterSerial.cpp	/^bool PrinterSerial::tryConnect() {$/;"	f	class:PrinterSerial	signature:()
+tryConnect	PrinterSerial.h	/^    bool tryConnect();$/;"	p	class:PrinterSerial	access:public	signature:()
+trySendNextLine	printer.cpp	/^void Printer::trySendNextLine() {$/;"	f	class:Printer	signature:()
+trySendNextLine	printer.h	/^    void trySendNextLine(); \/\/ Send another line if possible$/;"	p	class:Printer	access:private	signature:()
+trySendPacket	printer.cpp	/^bool Printer::trySendPacket(GCodeDataPacketPtr &dp,shared_ptr<GCode> &gc) {$/;"	f	class:Printer	signature:(GCodeDataPacketPtr &dp,shared_ptr<GCode> &gc)
+trySendPacket	printer.h	/^    bool trySendPacket(GCodeDataPacketPtr &dp,boost::shared_ptr<GCode> &gc);$/;"	p	class:Printer	access:private	signature:(GCodeDataPacketPtr &dp,boost::shared_ptr<GCode> &gc)
+undoCurrentJob	Printjob.cpp	/^void PrintjobManager::undoCurrentJob() {$/;"	f	class:PrintjobManager	signature:()
+undoCurrentJob	Printjob.h	/^    void undoCurrentJob();$/;"	p	class:PrintjobManager	access:public	signature:()
+updateLastTempMutex	printer.cpp	/^void Printer::updateLastTempMutex() {$/;"	f	class:Printer	signature:()
+updateLastTempMutex	printer.h	/^    void updateLastTempMutex();$/;"	p	class:Printer	access:public	signature:()
+updateTempEvery	printer.h	/^    int updateTempEvery;$/;"	m	class:Printer	access:private
+uploading	PrinterState.h	/^    bool uploading;$/;"	m	class:PrinterState	access:private
+writeBuffer	PrinterSerial.h	/^    boost::shared_array<char> writeBuffer; \/\/\/< Data being written$/;"	m	class:PrinterSerial	access:private
+writeBufferSize	PrinterSerial.h	/^    size_t writeBufferSize; \/\/\/< Size of writeBuffer$/;"	m	class:PrinterSerial	access:private
+writeBytes	PrinterSerial.cpp	/^void PrinterSerial::writeBytes(const uint8_t* data,size_t len) {$/;"	f	class:PrinterSerial	signature:(const uint8_t* data,size_t len)
+writeBytes	PrinterSerial.h	/^    void writeBytes(const uint8_t* data,size_t len);$/;"	p	class:PrinterSerial	access:public	signature:(const uint8_t* data,size_t len)
+writeEnd	PrinterSerial.cpp	/^void PrinterSerial::writeEnd(const boost::system::error_code& error)$/;"	f	class:PrinterSerial	signature:(const boost::system::error_code& error)
+writeEnd	PrinterSerial.h	/^    void writeEnd(const boost::system::error_code& error);$/;"	p	class:PrinterSerial	access:private	signature:(const boost::system::error_code& error)
+writeQueue	PrinterSerial.h	/^    std::vector<char> writeQueue;$/;"	m	class:PrinterSerial	access:private
+writeQueueMutex	PrinterSerial.h	/^    boost::mutex writeQueueMutex; \/\/\/< Mutex for access to writeQueue$/;"	m	class:PrinterSerial	access:private
+writeString	PrinterSerial.cpp	/^void PrinterSerial::writeString(const std::string& s)$/;"	f	class:PrinterSerial	signature:(const std::string& s)
+writeString	PrinterSerial.h	/^    void writeString(const std::string& s);$/;"	p	class:PrinterSerial	access:public	signature:(const std::string& s)
+wwwDir	global_config.h	/^    std::string wwwDir; \/\/\/< Website root$/;"	m	class:GlobalConfig	access:private
+x	GCode.h	/^    float x, y, z, e, f,ii,j,r;$/;"	m	class:GCode	access:public
+x	PrinterState.h	/^    double x, y, z, e,emax,f,eprinter;$/;"	m	class:PrinterState	access:private
+x	timeEstimate.h	/^	float x , y , z , e , f ;  \/\/当前获取的GCODE参数$/;"	m	class:TimeEstimateCalculator	access:private
+xOffset	PrinterState.h	/^    double xOffset, yOffset, zOffset, eOffset;$/;"	m	class:PrinterState	access:private
+xmax	printer.h	/^    double xmin,xmax;$/;"	m	class:Printer	access:public
+xmin	printer.h	/^    double xmin,xmax;$/;"	m	class:Printer	access:public
+y	GCode.h	/^    float x, y, z, e, f,ii,j,r;$/;"	m	class:GCode	access:public
+y	PrinterState.h	/^    double x, y, z, e,emax,f,eprinter;$/;"	m	class:PrinterState	access:private
+y	timeEstimate.h	/^	float x , y , z , e , f ;  \/\/当前获取的GCODE参数$/;"	m	class:TimeEstimateCalculator	access:private
+yOffset	PrinterState.h	/^    double xOffset, yOffset, zOffset, eOffset;$/;"	m	class:PrinterState	access:private
+ymax	printer.h	/^    double ymin,ymax;$/;"	m	class:Printer	access:public
+ymin	printer.h	/^    double ymin,ymax;$/;"	m	class:Printer	access:public
+z	GCode.h	/^    float x, y, z, e, f,ii,j,r;$/;"	m	class:GCode	access:public
+z	PrinterState.h	/^    double x, y, z, e,emax,f,eprinter;$/;"	m	class:PrinterState	access:private
+z	timeEstimate.h	/^	float x , y , z , e , f ;  \/\/当前获取的GCODE参数$/;"	m	class:TimeEstimateCalculator	access:private
+zOffset	PrinterState.h	/^    double xOffset, yOffset, zOffset, eOffset;$/;"	m	class:PrinterState	access:private
+zmax	printer.h	/^    double zmin,zmax;$/;"	m	class:Printer	access:public
+zmin	printer.h	/^    double zmin,zmax;$/;"	m	class:Printer	access:public
+~GCode	GCode.cpp	/^GCode::~GCode() {$/;"	f	class:GCode	signature:()
+~GCode	GCode.h	/^    ~GCode();$/;"	p	class:GCode	access:public	signature:()
+~GCodeDataPacket	GCode.cpp	/^GCodeDataPacket::~GCodeDataPacket() {$/;"	f	class:GCodeDataPacket	signature:()
+~GCodeDataPacket	GCode.h	/^    ~GCodeDataPacket();$/;"	p	class:GCodeDataPacket	access:public	signature:()
+~Printer	printer.cpp	/^Printer::~Printer() {$/;"	f	class:Printer	signature:()
+~Printer	printer.h	/^    ~Printer();$/;"	p	class:Printer	access:public	signature:()
+~PrinterSerial	PrinterSerial.cpp	/^PrinterSerial::~PrinterSerial()$/;"	f	class:PrinterSerial	signature:()
+~PrinterSerial	PrinterSerial.h	/^    ~PrinterSerial();$/;"	p	class:PrinterSerial	access:public	signature:()
+~PrinterState	PrinterState.cpp	/^PrinterState::~PrinterState() {$/;"	f	class:PrinterState	signature:()
+~PrinterState	PrinterState.h	/^    ~PrinterState();$/;"	p	class:PrinterState	access:public	signature:()
+~RLog	RLog.cpp	/^RLog::~RLog() {$/;"	f	class:RLog	signature:()
+~RLog	RLog.h	/^    ~RLog();$/;"	p	class:RLog	access:public	signature:()
+~TimeEstimateCalculator	timeEstimate.cpp	/^TimeEstimateCalculator::~TimeEstimateCalculator() {$/;"	f	class:TimeEstimateCalculator	signature:()
+~TimeEstimateCalculator	timeEstimate.h	/^    ~TimeEstimateCalculator();$/;"	p	class:TimeEstimateCalculator	access:public	signature:()

@@ -1,0 +1,2 @@
+/usr/bin/ar cr libmongoose_x86.a  CMakeFiles/libmongoose_x86.a.dir/mongoose.c.o
+/usr/bin/ranlib libmongoose_x86.a

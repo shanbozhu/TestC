@@ -1,0 +1,4 @@
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+
+file(GLOB src ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
+set(src ${src} PARENT_SCOPE)

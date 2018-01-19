@@ -1,0 +1,2 @@
+/usr/bin/ar cr libjson_spirit_x86.a  CMakeFiles/libjson_spirit_x86.a.dir/json_spirit_reader.cpp.o CMakeFiles/libjson_spirit_x86.a.dir/json_spirit_writer.cpp.o CMakeFiles/libjson_spirit_x86.a.dir/json_spirit_value.cpp.o
+/usr/bin/ranlib libjson_spirit_x86.a

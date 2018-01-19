@@ -1,0 +1,2 @@
+/usr/bin/ar cr libconfig_x86.a  CMakeFiles/libconfig_x86.a.dir/scanner.c.o CMakeFiles/libconfig_x86.a.dir/libconfig.c.o CMakeFiles/libconfig_x86.a.dir/grammar.c.o CMakeFiles/libconfig_x86.a.dir/strbuf.c.o CMakeFiles/libconfig_x86.a.dir/scanctx.c.o CMakeFiles/libconfig_x86.a.dir/libconfigcpp.cpp.o
+/usr/bin/ranlib libconfig_x86.a

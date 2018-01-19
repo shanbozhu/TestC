@@ -1,0 +1,5 @@
+/home/zhushanbo/download/Zeegine-Server/build/CMakeFiles/ZeegineServer.dir
+/home/zhushanbo/download/Zeegine-Server/build/lib/libconfig/CMakeFiles/libconfig_x86.a.dir
+/home/zhushanbo/download/Zeegine-Server/build/lib/json_spirit/CMakeFiles/libjson_spirit_x86.a.dir
+/home/zhushanbo/download/Zeegine-Server/build/lib/moFileReader/CMakeFiles/libmoFileReader_x86.a.dir
+/home/zhushanbo/download/Zeegine-Server/build/lib/mongoose/CMakeFiles/libmongoose_x86.a.dir

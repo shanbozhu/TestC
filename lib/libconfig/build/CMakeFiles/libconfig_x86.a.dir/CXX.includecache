@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhushanbo/download/Zeegine-Server/lib/libconfig/libconfig.h
+stdio.h
+-
+
+/home/zhushanbo/download/Zeegine-Server/lib/libconfig/libconfig.h++
+stdio.h
+-
+exception
+-
+string
+-
+
+/home/zhushanbo/download/Zeegine-Server/lib/libconfig/libconfigcpp.cpp
+libconfig.h++
+/home/zhushanbo/download/Zeegine-Server/lib/libconfig/libconfig.h++
+wincompat.h
+/home/zhushanbo/download/Zeegine-Server/lib/libconfig/wincompat.h
+libconfig.h
+/home/zhushanbo/download/Zeegine-Server/lib/libconfig/libconfig.h
+cstring
+-
+cstdlib
+-
+sstream
+-
+
+/home/zhushanbo/download/Zeegine-Server/lib/libconfig/wincompat.h
+windows.h
+-
+

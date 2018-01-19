@@ -1,0 +1,2 @@
+/usr/bin/ar cr libmoFileReader_x86.a  CMakeFiles/libmoFileReader_x86.a.dir/moFileReader.cpp.o
+/usr/bin/ranlib libmoFileReader_x86.a

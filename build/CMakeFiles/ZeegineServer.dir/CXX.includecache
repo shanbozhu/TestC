@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhushanbo/download/Zeegine-Server/src/AviFormat.h
+iostream
+-
+
+/home/zhushanbo/download/Zeegine-Server/src/AviGenerator.h
+stdio.h
+-
+string
+-
+vector
+-
+AviFormat.h
+/home/zhushanbo/download/Zeegine-Server/src/AviFormat.h
+jpg2mp4.h
+/home/zhushanbo/download/Zeegine-Server/src/jpg2mp4.h
+
+/home/zhushanbo/download/Zeegine-Server/src/jpg2mp4.cpp
+jpg2mp4.h
+/home/zhushanbo/download/Zeegine-Server/src/jpg2mp4.h
+
+/home/zhushanbo/download/Zeegine-Server/src/jpg2mp4.h
+iostream
+-
+string.h
+-
+fstream
+-
+AviGenerator.h
+/home/zhushanbo/download/Zeegine-Server/src/AviGenerator.h
+
